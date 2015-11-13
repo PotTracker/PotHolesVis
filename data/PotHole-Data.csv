@@ -1,4 +1,4 @@
-id,,lattitude,longitude,end timestamp,area,status(active/close),count,key(for  newly updated data),road contractor details
+id,address,lattitude,longitude,end timestamp,area,status(active/close),count,key(for  newly updated data),road contractor details
 1,"590, 3rd Rd, Ram Krishna Nagar, Khar West
 Mumbai, Maharashtra, India
 ",19.066435,72.838857,,Bandra,,,,
@@ -361,8 +361,8 @@ Mumbai, Maharashtra 400001, India
 ",18.935348,72.83816,,,,,,
 122,"Supreme Tours and Travels
 Road Number 4, Govandi Slums, Shivaji Nagar, Mumbai, Maharashtra 400043, India
-19.065084, 72.923372
-",,,,,,,,
+
+",19.065084,72.923372,,,,,,
 123,"Bharat Petroleum Refinery, Mahul, Trombay
 Mumbai, Maharashtra, India
 ",19.018884,72.896459,,,,,,
@@ -835,8 +835,6 @@ Bhiwandi, Maharashtra, India
 278,"BA-38
 MIDC, Navi Mumbai, Maharashtra, India
 ",19.108133,73.029097,,,,,,
-279,"Stingray Studios
-Sector 11, CBD Belapur, Navi Mumbai, Maharashtra 400614, India",,,,,,,,
 280,"Sector 21, Nerul
 Navi Mumbai, Maharashtra, India
 ",19.032378,73.020607,,,,,,
