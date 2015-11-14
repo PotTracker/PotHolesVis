@@ -1,3 +1,22 @@
+var loc = {};
+d3.csv("data/PotHole-Data.csv", function(rows) {
+
+    // Create nodes for each unique source and target.
+    rows.forEach(function(row) {
+        if(row.status == "active") {
+            if (!loc.hasOwnProperty(row.area)) {
+                loc[row.area] = {
+                    locations : []
+                }
+            }
+            loc[row.area].locations.push([row.lattitude,row.longitude]);
+        }
+    });
+    console.log(loc);
+});
+
+
+
 
 
 function MapMumbai(_parentElement){
