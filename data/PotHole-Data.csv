@@ -1,4 +1,4 @@
-id,address,lattitude,longitude,start timestamp,end timestamp,area,status,count,key(for  newly updated data),road contractor details
+id,address,lattitude,longitude,starttime,end timestamp,area,status,count,key(for  newly updated data),road contractor details
 1,"590, 3rd Rd, Ram Krishna Nagar, Khar West
 Mumbai, Maharashtra, India
 ",19.066435,72.838857,4/3/2014,,Bandra,active,9462,Pothole-1,

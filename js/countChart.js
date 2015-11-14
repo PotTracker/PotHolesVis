@@ -57,7 +57,7 @@ CountChart.prototype.printElementsBar = function(data){
         .domain(data)
         .rangeBands([0, 200]);
 
-    var chart = d3.select("body").append("svg")
+    var chart = self.parentElement.append("svg")
         .attr("class", "chart")
         .attr("width", 420)
         .attr("height", 20 * data.length);
