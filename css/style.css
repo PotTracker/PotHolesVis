@@ -1,0 +1,32 @@
+#map-wrap {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#map {
+    width: 1000px; /* just big enough to show the whole thing at zoom #6 */
+    height: 1000px;
+}
+
+
+
+
+
+.SvgOverlay circle {
+    fill: brown;
+    stroke: black;
+    stroke-width: 1.5px;
+}
+.SvgOverlay, .SvgOverlay svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.SvgOverlay path {
+    stroke: Orange;
+    stroke-width: 2px;
+    fill: Orange;
+    fill-opacity: .3;
+}
