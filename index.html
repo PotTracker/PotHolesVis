@@ -5,10 +5,14 @@
     <title>PotTracker</title>
 
     <!-- ADD Libraries-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/d3/2.10.0/d3.v2.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="http://d3js.org/d3.v3.js" charset="utf-8"></script>
     <script src="http://code.jquery.com/jquery-2.1.4.js" charset="utf-8"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 
 
     <script src="js/mapMumbai.js"></script>
@@ -23,17 +27,34 @@
 <div id="tilford-tree">
 
 </div>
-<div id="map-mumbai">
 
+<div id="map-wrap">
+    <div id="map">
+    </div>
 </div>
+
 <div id="count-chart">
 
 </div>
+
 <div id="time-chart">
 
 </div>
 
-<script src="js/main.js"></script>
+<script>
+    $(function () {
+
+
+        $map = $("#map");
+        console.log($map);
+        var mapMumbai   = new MapMumbai($map);
+        var tilfordTree = new TilfordTree(d3.select("#tilford-tree"));
+        var countChart  = new CountChart(d3.select("#count-chart"));
+        var timeChart   = new TimeChart(d3.select("#time-chart"));
+
+    })
+</script>
 
 </body>
 </html>
+
