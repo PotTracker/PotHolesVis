@@ -1,858 +1,853 @@
-id,address,lattitude,longitude,end timestamp,area,status(active/close),count,key(for  newly updated data),road contractor details
+id,address,lattitude,longitude,start timestamp,end timestamp,area,status(active/close),count,key(for  newly updated data),road contractor details
 1,"590, 3rd Rd, Ram Krishna Nagar, Khar West
 Mumbai, Maharashtra, India
-",19.066435,72.838857,,Bandra,,,,
+",19.066435,72.838857,4/3/2014,,Bandra,active,9462,Pothole-1,
 2,"590, 3rd Rd, Ram Krishna Nagar, Khar West
 Mumbai, Maharashtra 400052, India
-",19.067196,72.83895,,Bandra,,,,
+",19.067196,72.83895,5/4/2014,,Bandra,active,3529,Pothole-2,
 3,"99, Swami Vivekanand Rd, Ram Krishna Nagar, Khar West
 Mumbai, Maharashtra 400052, India
-",19.071173,72.837442,,Bandra,,,,
-4,"115, Swami Vivekanand Rd, Khar West
-Mumbai, Maharashtra 400052, India
-",19.070752,72.837335,,Bandra,,,,
+",19.071173,72.837442,7/1/2014,,Bandra,active,4758,Pothole-3,
+4,"99, Swami Vivekanand Rd, Ram Krishna Nagar, Khar West
+Mumbai, Maharashtra 400052, India",19.070752,72.837335,1/26/2014,,Bandra,active,8947,Pothole-4,
 5,"15-A, Swami Vivekanand Rd, Pali Village, Khar West
 Mumbai, Maharashtra, India
-",19.06693,72.83725,,Bandra,,,,
+",19.06693,72.83725,7/25/2014,,Bandra,active,3970,Pothole-5,
 6,"Modern Battery Service Station
 28, Swami Vivekanand Road`, Old Khar, Near Hindustan Petrol Pump, Khar (W), Swami Vivekanand Rd, Khar East, Mumbai, Maharashtra 400052, India
-",19.064952,72.837299,,Bandra,,,,
+",19.064952,72.837299,9/13/2014,,Bandra,active,3881,Pothole-6,
 7,"DR. NOORANI'S HOMEO CLINIC
 Mumbai, Maharashtra 400050, India
-",19.055684,72.837423,,Bandra,,,,
-8,"
-Silver Streak
+",19.055684,72.837423,11/17/2014,,Bandra,active,6498,Pothole-7,
+8,"Dattaram Lad Path, Union Park, Pali Hill
 Mumbai, Maharashtra 400052, India
-",19.071366,72.834106,,Bandra,,,,
+",19.071366,72.834106,12/12/2014,,Bandra,active,4098,Pothole-8,
 9,"710, Linking Rd, Khar West
 Mumbai, Maharashtra 400052, India
-",19.06879,72.833559,,Bandra,,,,
+",19.06879,72.833559,1/24/2014,,Bandra,active,1158,Pothole-9,
 10,"21st century Motion Arts
 Mumbai, Maharashtra 400052, India
-",19.066736,72.833849,,Bandra,,,,
+",19.066736,72.833849,10/4/2014,,Bandra,active,5411,Pothole-10,
 11,"512, Linking Rd, Pali Village, Khar West
 Mumbai, Maharashtra, India
-",19.064282,72.834868,,Bandra,,,,
+",19.064282,72.834868,4/5/2014,,Bandra,active,932,Pothole-11,
 12,"Zodiac
 Mumbai, Maharashtra 400050, India
-",19.061874,72.835879,,Bandra,,,,
+",19.061874,72.835879,1/26/2014,,Bandra,active,7047,Pothole-12,
 13,"Charle Collection
 Mumbai, Maharashtra 400054, India
-",19.082062,72.834409,,Bandra,,,,
+",19.082062,72.834409,1/7/2014,,Bandra,active,2572,Pothole-13,
 14,"Khar - Danda Rd, Danda, Pali Hill
 Mumbai, Maharashtra 400052, India
-",19.075168,72.825311,,Bandra,,,,
+",19.075168,72.825311,1/29/2014,,Bandra,active,8819,Pothole-14,
 15,"Dattaram Lad Path, Danda Village, Khar Danda
 Mumbai, Maharashtra 400052, India
-",19.073951,72.822178,,Bandra,,,,
+",19.073951,72.822178,5/9/2014,,Bandra,active,2503,Pothole-15,
 16,"Dattaram Lad Path, Union Park, Pali Hill
 Mumbai, Maharashtra 400052, India
-",19.070523,72.822478,,Bandra,,,,
+",19.070523,72.822478,8/12/2014,,Bandra,active,4478,Pothole-16,
 17,"Sagar Darshan
 Carter Rd, India
-",19.066325,72.823015,,Bandra,,,,
+",19.066325,72.823015,11/21/2014,,Bandra,active,9823,Pothole-17,
 18,"2, Carter Rd, Pali Hill
 Mumbai, Maharashtra, India
-",19.062857,72.822521,,Bandra,,,,
+",19.062857,72.822521,10/5/2014,,Bandra,active,3940,Pothole-18,
 19,"Sagar Milk Center
 Mumbai, Maharashtra 400050, India
-",19.057909,72.823766,,Bandra,,,,
+",19.057909,72.823766,3/5/2014,,Bandra,active,3269,Pothole-19,
 20,"Holi Family Hospital
-",19.054785,72.827435,,Bandra,,,,
+",19.054785,72.827435,3/21/2014,,Bandra,active,5083,Pothole-20,
 21,"Bandra West
 Mumbai, Maharashtra 400050, India
-",19.052433,72.824023,,Bandra,,,,
+",19.052433,72.824023,4/30/2014,,Bandra,active,9853,Pothole-21,
 22,"Damsel
 Mumbai, Maharashtra 400050, India
-",19.056023,72.834516,,Bandra,,,,
+",19.056023,72.834516,1/13/2014,,Bandra,active,9780,Pothole-22,
 23,"Baxubhai Mansion
 Hill Rd, Bandra West, Mumbai, Maharashtra 400050, India
-",19.0544,72.837542,,Bandra,,,,
+",19.0544,72.837542,8/2/2014,,Bandra,active,5389,Pothole-23,
 24,"Gurunanak Marg, Patkar Blocks, Bandra West
 Mumbai, Maharashtra 400050, India
-",19.055819,72.839497,,Bandra,,,,
+",19.055819,72.839497,1/22/2014,,Bandra,active,7984,Pothole-24,
 25,"3, Swami Vivekanand Rd, Mahim Koliwada, Mahim West, Mahim
 Mumbai, Maharashtra 400016, India
-",19.045242,72.838982,,Bandra,,,,
+",19.045242,72.838982,9/22/2014,,Bandra,active,8530,Pothole-25,
 26,"Turner Rd, Patkar Blocks, Bandra West
 Mumbai, Maharashtra 400050, India
-",19.057426,72.838607,,Bandra,,,,
+",19.057426,72.838607,3/20/2014,,Bandra,active,6805,Pothole-26,
 27,"512, Linking Rd, Pali Village, Khar West
 Mumbai, Maharashtra, India
-",19.064132,72.834962,,Bandra,,,,
+",19.064132,72.834962,4/26/2014,,Bandra,active,3849,Pothole-27,
 28,"MV Zhen Don Ship Rd, Railway Colony, Shirley, Pali Hill
 Mumbai, Maharashtra 400050, India
-",19.064527,72.82308,,Bandra,,,,
+",19.064527,72.82308,10/10/2014,,Bandra,active,8678,Pothole-28,
 29,"26, Carter Rd, Pali Hill
 Mumbai, Maharashtra, India
-",19.061465,72.822157,,Bandra,,,,
-30,"Creek Rd, Mangroves Forest, Andheri West
-Mumbai, Maharashtra 400102, India
-",19.150825,72.825559,,Andheri,,,,
-31,"Mahavir Properties
-Bhau Tatoba Toraskar Marg, Mhada Colony, Andheri West, Mumbai, Maharashtra 400053, India
-",19.151757,72.831739,,Andheri,,,,
-32,"New Satyle Hair Cutting Salon
-Patliputra, Goregaon West, Mumbai, Maharashtra 400104, India
-",19.154108,72.835515,,Andheri,,,,
-33,"Sandip Salon
-Link Rd, Mitha Nagar, Goregaon West, Mumbai, Maharashtra 400062, India
-",19.163189,72.834829,,Andheri,,,,
-34,"Advanced Excel Macros Corporate Trainers in Mumbai
-Mumbai, Maharashtra 400090, India
-",19.164912,72.834571,,Andheri,,,,
-35,"Swami Vivekanand Rd, Belwalkar Wadi, Goregaon West
-Mumbai, Maharashtra 400104, India
-",19.164243,72.845772,,Andheri,,,,
-36,"Dr. Sonali's Skin Hair & Cosmetology Clinic
-Swami Vivekanand Rd, Mahesh Nagar, Goregaon West, Mumbai, Maharashtra 400062, India
-",19.17081,72.845236,,Andheri,,,,
-37,"209-210, Link Rd, Ram Nagar, Malad West
-Mumbai, Maharashtra, India
-",19.173566,72.836545,,Andheri,,,,
-38,"Goregaon - Mulund Link Rd, Sunder Nagar, Goregaon West
-Mumbai, Maharashtra 400064, India
-",19.17387,72.839099,,Andheri,,,,
-39,"MDP Rd, Mindspace, Goregaon West
-Mumbai, Maharashtra 400104, India
-",19.170648,72.834249,,Andheri,,,,
-40,"MDP Rd, Mindspace, Malad West
-Mumbai, Maharashtra 400104, India
-",19.172553,72.830709,,Andheri,,,,
-41,"Creek Rd, Mangroves Forest, Andheri West
-Mumbai, Maharashtra 400102, India
-",19.153921,72.828288,,Andheri,,,,
-42,"Mogara Nallah
-",19.149015,72.824039,,Andheri,,,,
-43,"Alfa Kids Centre
-",19.14115,72.821808,,Andheri,,,,
-44,"Swami Vivekanand Rd, Oshiwara, Jogeshwari West
-Mumbai, Maharashtra 400102, India
-",19.148894,72.843137,,Andheri,,,,
-45,"Western Express Hwy, Pratap Nagar, Goregaon
-Mumbai, Maharashtra 400060, India
-",19.141911,72.854938,,Andheri,,,,
-46,"1-M, Western Express Hwy, Cama Industrial Estate, Goregaon
-Mumbai, Maharashtra, India
-",19.162262,72.858028,,Andheri,,,,
-47,"Samarth Shrikant Karmakar Advocate
-Dattapada Rd, Rajendra Nagar, Borivali East, Mumbai, Maharashtra 400066, India
-",19.221355,72.858629,,Andheri,,,,
-48,"6TH FLOOR, Link Rd, Shimpoli, Borivali West
-Mumbai, Maharashtra, India
-",19.224719,72.840819,,Andheri,,,,
-49,"Sudhir Phadke Flyover, Daulat Nagar, Borivali
-Mumbai, Maharashtra 400066, India
-",19.239022,72.860475,,Andheri,,,,
-50,"12, Link Rd, Eksar, Borivali West
-Mumbai, Maharashtra, India
-",19.24356,72.84524,,Andheri,,,,
-51,"Dahisar Flyover, Avdhut Nagar, Dahisar East
-Mumbai, Maharashtra 400068, India
-",19.258025,72.86232,,Andheri,,,,
-52,"Gokul Towers Rd, Dattani Park, Thakur Village, Kandivali East
-Mumbai, Maharashtra 400101, India
-",19.210333,72.872926,,Andheri,,,,
-53,"Mydentist - Kandivali (East) Thakur Village
-Mumbai, Maharashtra 400101, India
-",19.207537,72.872755,,Andheri,,,,
-54,"Kandivali Station (W)
-",19.205916,72.850095,,Andheri,,,,
-55,"Vodafone Mini Store
-Malad East, Mumbai, Maharashtra 400097, India
-",19.183754,72.835803,,Andheri,,,,
-56,"Goregaon - Mulund Link Rd, Koyna Vasahat, Chinchowali Colony, Malad East
-Mumbai, Maharashtra 400063, India
-",19.173326,72.851311,,Andheri,,,,
-57,"General Arun Kumar Vaidya Marg, Suchi Dham, Dindoshi, Malad East
-Mumbai, Maharashtra 400063, India
-",19.175717,72.867061,,Andheri,,,,
-58,"Infinity IT Park Bus Stop
-Plot 5, Nagri Niwara Cooperative Housing Society, Goregaon, Mumbai, Maharashtra 400065, India
-",19.176475,72.881108,,Andheri,,,,
-59,"10, Aarey Rd, Aarey Colony, Goregaon
-Mumbai, Maharashtra, India
-",19.1593,72.874085,,Andheri,,,,
-60,"Airport Rd, Chimatpada, Marol, Andheri East
-Mumbai, Maharashtra 400059, India
-",19.10872,72.875872,,Andheri East,,,,
-61,"Andheri-Ghatkopar Rd, Sathi D Souza Nagar, Asalpha
-Mumbai, Maharashtra 400072, India
-",19.103124,72.888425,,Andheri East,,,,
-62,"M /s Avadh Narayan Brothers
-Kherani Rd, Sag Baug, Marol, Andheri East, Mumbai, Maharashtra 400072, India
-",19.107037,72.887952,,Andheri East,,,,
-63,"Leviathan Systems Pvt. Ltd
-India
-",19.113059,72.882116,,Andheri East,,,,
-64,"Marol, Andheri East
-Mumbai, Maharashtra, India
-",19.11531,72.883489,,Andheri East,,,,
-65,"Mahalaxmi Old Paper Mart
-Saki Vihar Rd, Andheri East, Mumbai, Maharashtra 400072, India
-",19.117175,72.889347,,Andheri East,,,,
-66,"Chandivali Farm Rd, Yadav Nagar, Chandivali, Powai
-Mumbai, Maharashtra 400072, India
-",19.114722,72.894755,,Andheri East,,,,
-67,"Durgadevi Sharma Marathi School
-Chandivali Farm Rd, Chandivali, Powai, Mumbai, Maharashtra 400072, India
-",19.114478,72.898188,,Andheri East,,,,
-68,"A-107, Turbhe Rd, Chandivali, Powai
-Mumbai, Maharashtra 400072, India
-",19.111985,72.900977,,Andheri East,,,,
-69,"Shaki Vihar Complex Rd, Ansa Industrial Estate, Chandivali, Andheri East
-Mumbai, Maharashtra 400072, India
-",19.108173,72.889798,,Andheri East,,,,
-70,"A-107, Turbhe Rd, Chandivali, Powai
-Mumbai, Maharashtra 400072, India
-",19.109612,72.901449,,Andheri East,,,,
-71,"Welcome Electrical Works
-Kherani Rd, Pereira Wadi, Asalpha, Mumbai, Maharashtra 400072, India
-",,,,Andheri East,,,,
-72,"mumbai magic
-Shreyas Cinema Rd, Adoni Compound, Mumbai, Maharashtra 400086, India
-",19.094483,72.913359,,Andheri East,,,,
-73,"Noor Mohammad Compound
-Lal Bahadur Shastri Marg, Amrut Nagar, Ghatkopar West, Mumbai, Maharashtra 400086, India
-",19.10008,72.918058,,Andheri East,,,,
-74,"Nizam's Restro
-Vikhroli West, Mumbai, Maharashtra 400079, India
-",19.105818,72.916986,,Andheri East,,,,
-75,"Hiranadani Link Rd, HMPL Surya Nagar, Vikhroli West
-Mumbai, Maharashtra 400079, India
-",19.111061,72.917826,,Andheri East,,,,
-76,"WING-C, Jogeshwari Vikhroli Link Rd, Ramabai Ambedkar Nagar, Vikhroli West
-Mumbai, Maharashtra, India
-",19.125674,72.922357,,Andheri East,,,,
-77,"C-3, Jogeshwari Vikhroli Link Rd, IIT Area, Powai
-Mumbai, Maharashtra, India
-",19.126505,72.917958,,Andheri East,,,,
-78,"B-19, Jogeshwari Vikhroli Link Rd, IIT Area, Powai
-Mumbai, Maharashtra, India
-",19.124356,72.914203,,Andheri East,,,,
-79,"B-19, Jogeshwari Vikhroli Link Rd, IIT Area, Powai
-Mumbai, Maharashtra, India
-",19.124356,72.914203,,Andheri East,,,,
-80,"SP Properties
-Powai, Mumbai, Maharashtra 400076, India
-",19.118706,72.905122,,Andheri East,,,,
-81,"25, Lal Bahadur Shastri Marg, Kanjurmarg West, Bhandup West
-Mumbai, Maharashtra, India
-",19.138055,72.930412,,Andheri East,,,,
-82,"Bhattipada Cross Rd, Nirmal Nagar, Bhandup West
-Mumbai, Maharashtra 400078, India
-",19.149049,72.937086,,Andheri East,,,,
-83,"Mulund - Airoli Rd, Mulund East
-Mumbai, Maharashtra 400081, India
-",19.15446,72.960076,,Andheri East,,,,
-84,"Jay Ambe
-C-6, Kailash Esplanade, Opposite Shreyash Cinema, Lal Bahadur Shastri Road, Ghatkopar (W), Lal Bahadur Shastri Marg, Vikhroli West, Mumbai, Maharashtra 400086, India
-",19.103081,72.920265,,Andheri East,,,,
-85,"Lal Bahadur Shastri Marg, Ghatkopar West
-Mumbai, Maharashtra 400086, India
-",19.087508,72.902755,,Andheri East,,,,
-86,"Jain Electronics
-Lal Bahadur Shastri Marg, Bail Bajar, Sakinaka, Mumbai, Maharashtra 400070, India
-",19.082804,72.882199,,Andheri East,,,,
+",19.061465,72.822157,9/6/2014,,Bandra,active,5622,Pothole-29,
 87,"Air India Rd, Kismat Nagar, Kurla
 Mumbai, Maharashtra 400070, India
-",19.077937,72.878551,,Bandra,,,,
+",19.077937,72.878551,2/12/2014,,Bandra,active,6934,Pothole-30,
 88,"vinay bhavya complex
 Chatrapati Shivaji Terminus Rd, India
-",19.074408,72.870998,,Bandra,,,,
+",19.074408,72.870998,11/28/2014,,Bandra,active,198,Pothole-31,
 89,"BKC Rd, University of Mumbai,Vidya Nagari, Bharam Nagar, Bandra East
 Mumbai, Maharashtra 400098, India
-",19.066012,72.863273,,Bandra,,,,
+",19.066012,72.863273,2/10/2014,,Bandra,active,4459,Pothole-32,
 90,"BKC Rd, St Dnyaneshwar Nagar, Bandra East
 Mumbai, Maharashtra 400051, India
-",19.059725,72.855076,,Bandra,,,,
+",19.059725,72.855076,1/19/2014,,Bandra,active,5743,Pothole-33,
+30,"Creek Rd, Mangroves Forest, Andheri West
+Mumbai, Maharashtra 400102, India
+",19.150825,72.825559,8/14/2014,,Andheri,active,8589,Pothole-1,
+31,"Mahavir Properties
+Bhau Tatoba Toraskar Marg, Mhada Colony, Andheri West, Mumbai, Maharashtra 400053, India
+",19.151757,72.831739,6/21/2014,,Andheri,active,2222,Pothole-2,
+32,"New Satyle Hair Cutting Salon
+Patliputra, Goregaon West, Mumbai, Maharashtra 400104, India
+",19.154108,72.835515,7/29/2014,,Andheri,active,3612,Pothole-3,
+33,"Sandip Salon
+Link Rd, Mitha Nagar, Goregaon West, Mumbai, Maharashtra 400062, India
+",19.163189,72.834829,6/14/2014,,Andheri,active,6469,Pothole-4,
+34,"Advanced Excel Macros Corporate Trainers in Mumbai
+Mumbai, Maharashtra 400090, India
+",19.164912,72.834571,10/5/2014,,Andheri,active,2582,Pothole-5,
+35,"Swami Vivekanand Rd, Belwalkar Wadi, Goregaon West
+Mumbai, Maharashtra 400104, India
+",19.164243,72.845772,11/14/2014,,Andheri,active,8858,Pothole-6,
+36,"Dr. Sonali's Skin Hair & Cosmetology Clinic
+Swami Vivekanand Rd, Mahesh Nagar, Goregaon West, Mumbai, Maharashtra 400062, India
+",19.17081,72.845236,11/8/2014,,Andheri,active,6057,Pothole-7,
+37,"209-210, Link Rd, Ram Nagar, Malad West
+Mumbai, Maharashtra, India
+",19.173566,72.836545,6/2/2014,,Andheri,active,7201,Pothole-8,
+38,"Goregaon - Mulund Link Rd, Sunder Nagar, Goregaon West
+Mumbai, Maharashtra 400064, India
+",19.17387,72.839099,2/24/2014,,Andheri,active,9084,Pothole-9,
+39,"MDP Rd, Mindspace, Goregaon West
+Mumbai, Maharashtra 400104, India
+",19.170648,72.834249,6/2/2014,,Andheri,active,8844,Pothole-10,
+40,"MDP Rd, Mindspace, Malad West
+Mumbai, Maharashtra 400104, India
+",19.172553,72.830709,2/24/2014,,Andheri,active,1755,Pothole-11,
+41,"Creek Rd, Mangroves Forest, Andheri West
+Mumbai, Maharashtra 400102, India
+",19.153921,72.828288,6/17/2014,,Andheri,active,1514,Pothole-12,
+42,"Mogara Nallah
+",19.149015,72.824039,1/14/2014,,Andheri,active,6765,Pothole-13,
+43,"Alfa Kids Centre
+",19.14115,72.821808,4/25/2014,,Andheri,active,1011,Pothole-14,
+44,"Swami Vivekanand Rd, Oshiwara, Jogeshwari West
+Mumbai, Maharashtra 400102, India
+",19.148894,72.843137,8/17/2014,,Andheri,active,6236,Pothole-15,
+45,"Western Express Hwy, Pratap Nagar, Goregaon
+Mumbai, Maharashtra 400060, India
+",19.141911,72.854938,4/12/2014,,Andheri,active,7684,Pothole-16,
+46,"1-M, Western Express Hwy, Cama Industrial Estate, Goregaon
+Mumbai, Maharashtra, India
+",19.162262,72.858028,12/21/2014,,Andheri,active,5689,Pothole-17,
+47,"Samarth Shrikant Karmakar Advocate
+Dattapada Rd, Rajendra Nagar, Borivali East, Mumbai, Maharashtra 400066, India
+",19.221355,72.858629,12/10/2014,,Andheri,active,4079,Pothole-18,
+48,"6TH FLOOR, Link Rd, Shimpoli, Borivali West
+Mumbai, Maharashtra, India
+",19.224719,72.840819,12/10/2014,,Andheri,active,3208,Pothole-19,
+49,"Sudhir Phadke Flyover, Daulat Nagar, Borivali
+Mumbai, Maharashtra 400066, India
+",19.239022,72.860475,6/29/2014,,Andheri,active,5234,Pothole-20,
+50,"12, Link Rd, Eksar, Borivali West
+Mumbai, Maharashtra, India
+",19.24356,72.84524,10/2/2014,,Andheri,active,8729,Pothole-21,
+51,"Dahisar Flyover, Avdhut Nagar, Dahisar East
+Mumbai, Maharashtra 400068, India
+",19.258025,72.86232,7/23/2014,,Andheri,active,6627,Pothole-22,
+52,"Gokul Towers Rd, Dattani Park, Thakur Village, Kandivali East
+Mumbai, Maharashtra 400101, India
+",19.210333,72.872926,11/21/2014,,Andheri,active,5535,Pothole-23,
+53,"Mydentist - Kandivali (East) Thakur Village
+Mumbai, Maharashtra 400101, India
+",19.207537,72.872755,1/19/2014,,Andheri,active,6861,Pothole-24,
+54,"Kandivali Station (W)
+",19.205916,72.850095,6/17/2014,,Andheri,active,4103,Pothole-25,
+55,"Vodafone Mini Store
+Malad East, Mumbai, Maharashtra 400097, India
+",19.183754,72.835803,12/27/2014,,Andheri,active,5149,Pothole-26,
+56,"Goregaon - Mulund Link Rd, Koyna Vasahat, Chinchowali Colony, Malad East
+Mumbai, Maharashtra 400063, India
+",19.173326,72.851311,11/16/2014,,Andheri,active,8182,Pothole-27,
+57,"General Arun Kumar Vaidya Marg, Suchi Dham, Dindoshi, Malad East
+Mumbai, Maharashtra 400063, India
+",19.175717,72.867061,11/11/2014,,Andheri,active,7890,Pothole-28,
+58,"Infinity IT Park Bus Stop
+Plot 5, Nagri Niwara Cooperative Housing Society, Goregaon, Mumbai, Maharashtra 400065, India
+",19.176475,72.881108,10/25/2014,,Andheri,active,3603,Pothole-29,
+59,"10, Aarey Rd, Aarey Colony, Goregaon
+Mumbai, Maharashtra, India
+",19.1593,72.874085,2/18/2014,,Andheri,active,3545,Pothole-30,
+60,"Airport Rd, Chimatpada, Marol, Andheri East
+Mumbai, Maharashtra 400059, India
+",19.10872,72.875872,4/8/2014,,Andheri East,active,577,Pothole-1,
+61,"Andheri-Ghatkopar Rd, Sathi D Souza Nagar, Asalpha
+Mumbai, Maharashtra 400072, India
+",19.103124,72.888425,3/15/2014,,Andheri East,active,5383,Pothole-2,
+62,"M /s Avadh Narayan Brothers
+Kherani Rd, Sag Baug, Marol, Andheri East, Mumbai, Maharashtra 400072, India
+",19.107037,72.887952,1/28/2014,,Andheri East,active,4517,Pothole-3,
+63,"Leviathan Systems Pvt. Ltd
+India
+",19.113059,72.882116,3/13/2014,,Andheri East,active,4936,Pothole-4,
+64,"Marol, Andheri East
+Mumbai, Maharashtra, India
+",19.11531,72.883489,9/24/2014,,Andheri East,active,4091,Pothole-5,
+65,"Mahalaxmi Old Paper Mart
+Saki Vihar Rd, Andheri East, Mumbai, Maharashtra 400072, India
+",19.117175,72.889347,12/14/2014,,Andheri East,active,200,Pothole-6,
+66,"Chandivali Farm Rd, Yadav Nagar, Chandivali, Powai
+Mumbai, Maharashtra 400072, India
+",19.114722,72.894755,12/11/2014,,Andheri East,active,9828,Pothole-7,
+67,"Durgadevi Sharma Marathi School
+Chandivali Farm Rd, Chandivali, Powai, Mumbai, Maharashtra 400072, India
+",19.114478,72.898188,3/31/2014,,Andheri East,active,266,Pothole-8,
+68,"A-107, Turbhe Rd, Chandivali, Powai
+Mumbai, Maharashtra 400072, India
+",19.111985,72.900977,12/3/2014,,Andheri East,active,935,Pothole-9,
+69,"Shaki Vihar Complex Rd, Ansa Industrial Estate, Chandivali, Andheri East
+Mumbai, Maharashtra 400072, India
+",19.108173,72.889798,12/29/2014,,Andheri East,active,6443,Pothole-10,
+70,"A-107, Turbhe Rd, Chandivali, Powai
+Mumbai, Maharashtra 400072, India
+",19.109612,72.901449,7/4/2014,,Andheri East,active,5419,Pothole-11,
+72,"mumbai magic
+Shreyas Cinema Rd, Adoni Compound, Mumbai, Maharashtra 400086, India
+",19.094483,72.913359,12/16/2014,,Andheri East,active,1872,Pothole-12,
+73,"Noor Mohammad Compound
+Lal Bahadur Shastri Marg, Amrut Nagar, Ghatkopar West, Mumbai, Maharashtra 400086, India
+",19.10008,72.918058,10/5/2014,,Andheri East,active,9072,Pothole-13,
+74,"Nizam's Restro
+Vikhroli West, Mumbai, Maharashtra 400079, India
+",19.105818,72.916986,3/29/2014,,Andheri East,active,8865,Pothole-14,
+75,"Hiranadani Link Rd, HMPL Surya Nagar, Vikhroli West
+Mumbai, Maharashtra 400079, India
+",19.111061,72.917826,10/27/2014,,Andheri East,active,5122,Pothole-15,
+76,"WING-C, Jogeshwari Vikhroli Link Rd, Ramabai Ambedkar Nagar, Vikhroli West
+Mumbai, Maharashtra, India
+",19.125674,72.922357,9/24/2014,,Andheri East,active,193,Pothole-16,
+77,"C-3, Jogeshwari Vikhroli Link Rd, IIT Area, Powai
+Mumbai, Maharashtra, India
+",19.126505,72.917958,11/25/2014,,Andheri East,active,5168,Pothole-17,
+78,"B-19, Jogeshwari Vikhroli Link Rd, IIT Area, Powai
+Mumbai, Maharashtra, India
+",19.124356,72.914203,10/23/2014,,Andheri East,active,2126,Pothole-18,
+79,"B-19, Jogeshwari Vikhroli Link Rd, IIT Area, Powai
+Mumbai, Maharashtra, India
+",19.124356,72.914203,12/22/2014,,Andheri East,active,5711,Pothole-19,
+80,"SP Properties
+Powai, Mumbai, Maharashtra 400076, India
+",19.118706,72.905122,5/31/2014,,Andheri East,active,6066,Pothole-20,
+81,"25, Lal Bahadur Shastri Marg, Kanjurmarg West, Bhandup West
+Mumbai, Maharashtra, India
+",19.138055,72.930412,1/10/2014,,Andheri East,active,2338,Pothole-21,
+82,"Bhattipada Cross Rd, Nirmal Nagar, Bhandup West
+Mumbai, Maharashtra 400078, India
+",19.149049,72.937086,7/15/2014,,Andheri East,active,9136,Pothole-22,
+83,"Mulund - Airoli Rd, Mulund East
+Mumbai, Maharashtra 400081, India
+",19.15446,72.960076,1/19/2014,,Andheri East,active,2335,Pothole-23,
+84,"Jay Ambe
+C-6, Kailash Esplanade, Opposite Shreyash Cinema, Lal Bahadur Shastri Road, Ghatkopar (W), Lal Bahadur Shastri Marg, Vikhroli West, Mumbai, Maharashtra 400086, India
+",19.103081,72.920265,11/6/2014,,Andheri East,active,7884,Pothole-24,
+85,"Lal Bahadur Shastri Marg, Ghatkopar West
+Mumbai, Maharashtra 400086, India
+",19.087508,72.902755,2/23/2014,,Andheri East,active,4271,Pothole-25,
+86,"Jain Electronics
+Lal Bahadur Shastri Marg, Bail Bajar, Sakinaka, Mumbai, Maharashtra 400070, India
+",19.082804,72.882199,9/11/2014,,Andheri East,active,9559,Pothole-26,
 91,"Hans Bhugra Marg, Yashwant Nagar, Vakola, Santacruz East
 Mumbai, Maharashtra 400098, India
-",19.074489,72.860269,,,,,,
+",19.074489,72.860269,5/31/2014,,A,active,9707,Pothole-1,
 92,"Singh Gas Suppliers
 India
-",19.074378,72.870915,,,,,,
+",19.074378,72.870915,1/2/2014,,A,active,4812,Pothole-2,
 93,"Frontmen Computers
 Mumbai, Maharashtra 400064, India
-",19.075169,72.837656,,,,,,
+",19.075169,72.837656,1/29/2014,,A,active,5513,Pothole-3,
 94,"3, Western Express Hwy, Chakala, Andheri East
 Mumbai, Maharashtra, India
-",19.110094,72.853972,,,,,,
+",19.110094,72.853972,7/25/2014,,A,active,3181,Pothole-4,
 95,"Juhu Ln, Gulmohar Rd, MHADA Colony, Juhu
 Mumbai, Maharashtra 400058, India
-",19.112689,72.837245,,,,,,
+",19.112689,72.837245,2/12/2014,,A,active,277,Pothole-5,
 96,"N South Road Number 13, Sainath Nagar, MHADA Colony, Juhu
 Mumbai, Maharashtra 400049, India
-",19.111939,72.828748,,,,,,
+",19.111939,72.828748,7/29/2014,,A,active,2461,Pothole-6,
 97,"2, Gulmohar Rd, Gulmohar Colony, Juhu
 Mumbai, Maharashtra 400058, India
-",19.116086,72.831269,,,,,,
+",19.116086,72.831269,7/13/2014,,A,active,4490,Pothole-7,
 98,"CD Barfiwala Rd, Mahavi Darshan, Dhangar wadi, Andheri West
 Mumbai, Maharashtra 400058, India
-",19.116045,72.835925,,,,,,
+",19.116045,72.835925,10/9/2014,,A,active,6807,Pothole-8,
 99,"Gas Products Of India
 Mumbai, Maharashtra 400049, India
-",19.115771,72.825679,,,,,,
+",19.115771,72.825679,12/2/2014,,A,active,1342,Pothole-9,
 100,"NO39
 Bhola Nagar, Kalwa, Thane, Maharashtra, India
-",19.184177,72.996259,,,,,,
+",19.184177,72.996259,9/25/2014,,A,active,4259,Pothole-10,
 101,"Sector 7, Airoli
 Navi Mumbai, Maharashtra, India
-",19.145384,72.998262,,,,,,
+",19.145384,72.998262,6/9/2014,,A,active,6054,Pothole-11,
 102,"R-272, Rabale Midc Rd, MIDC
 Navi Mumbai, Maharashtra, India
-",19.144599,73.005992,,,,,,
+",19.144599,73.005992,12/25/2014,,A,active,8502,Pothole-12,
 103,"209, Rabale Midc Rd, MIDC INDL Area, Rabale
 Navi Mumbai, Maharashtra 400701, India
-",19.14582,73.003892,,,,,,
+",19.14582,73.003892,8/22/2014,,A,active,7994,Pothole-13,
 104,"1, Rama Gosavi Marg, Sector 7, Airoli
 Navi Mumbai, Maharashtra, India
-",19.14641,72.99598,,,,,,
+",19.14641,72.99598,1/30/2014,,A,active,993,Pothole-14,
 105,"Meenatai Vijay Chogule Sabhagruh Marg, Airoli Naka, Airoli
 Navi Mumbai, Maharashtra 400708, India
-",19.165765,73.001209,,,,,,
+",19.165765,73.001209,7/23/2014,,A,active,526,Pothole-15,
 106,"Sanpada
 Navi Mumbai, Maharashtra, India
-",19.069499,73.033172,,,,,,
+",19.069499,73.033172,11/15/2014,,A,active,3941,Pothole-16,
 107,"YP Rd, IIT Area, Powai
 Mumbai, Maharashtra 400076, India
-",19.133219,72.918132,,,,,,
+",19.133219,72.918132,2/12/2014,,A,active,6085,Pothole-17,
 108,"c105/2, Pawane Village Rd, T.T.C. Industrial Area, Pawne
 Navi Mumbai, Maharashtra 400710, India
-",19.089454,73.02895,,,,,,
+",19.089454,73.02895,3/11/2014,,A,active,5137,Pothole-18,
 109,"172-A/B, Bhakti Marg, Kannamwar Nagar II, Vikhroli East
 Mumbai, Maharashtra 400083, India
-",19.116298,72.940338,,,,,,
+",19.116298,72.940338,8/17/2014,,A,active,420,Pothole-19,
 110,"807
 Rabale, Navi Mumbai, Maharashtra, India
-",19.146104,73.005561,,,,,,
+",19.146104,73.005561,5/13/2014,,A,active,1210,Pothole-20,
 111,"Unnamed Rd, Bhola Nagar, Dighe
 Navi Mumbai, Maharashtra 400605, India
-",19.184446,73.001141,,,,,,
+",19.184446,73.001141,2/3/2014,,A,active,672,Pothole-21,
 112,"Station Rd, Lokamanya Nagar, Gandhi Nagar, Vikhroli West
 Mumbai, Maharashtra 400083, India
-",19.111132,72.927118,,,,,,
+",19.111132,72.927118,10/4/2014,,A,active,1132,Pothole-22,
 113,"341, MIDC Area Rd, MIDC
 Navi Mumbai, Maharashtra, India
-",19.139001,73.009138,,,,,,
+",19.139001,73.009138,3/2/2014,,A,active,4522,Pothole-23,
 114,"Kashaba Jadhav Marg, Dadar East
 Mumbai, Maharashtra 400014, India
-",19.006936,72.842489,,,,,,
+",19.006936,72.842489,3/16/2014,,A,active,5428,Pothole-24,
 115,"180
 Sector 26, Vashi, Navi Mumbai, Maharashtra, India
-",19.088403,73.012945,,,,,,
+",19.088403,73.012945,10/14/2014,,A,active,4577,Pothole-25,
 116,"61
 Navy Nagar, Colaba, Mumbai, Maharashtra, India
-",18.904587,72.810205,,,,,,
+",18.904587,72.810205,2/12/2014,,A,active,970,Pothole-26,
 117,"123, Dinshaw Vacha Rd, Churchgate
 Mumbai, Maharashtra, India
-",18.930132,72.826599,,,,,,
+",18.930132,72.826599,11/15/2014,,A,active,3363,Pothole-27,
 118,"Road Number 6, Govandi Slums, Shivaji Nagar
 Mumbai, Maharashtra 400043, India
-",19.067021,72.925517,,,,,,
+",19.067021,72.925517,8/4/2014,,A,active,9880,Pothole-28,
 119,"Sir Phirozshah Mehta Rd, Kala Ghoda, Fort
 Mumbai, Maharashtra 400001, India
-",18.933931,72.834803,,,,,,
+",18.933931,72.834803,4/15/2014,,A,active,9580,Pothole-29,
 120,"89-4
 MIDC, Navi Mumbai, Maharashtra, India
-",19.076836,73.03156,,,,,,
+",19.076836,73.03156,1/29/2014,,A,active,7863,Pothole-30,
 121,"MbPT
 Mumbai, Maharashtra 400001, India
-",18.935348,72.83816,,,,,,
+",18.935348,72.83816,3/7/2014,,A,active,8818,Pothole-31,
 122,"Supreme Tours and Travels
 Road Number 4, Govandi Slums, Shivaji Nagar, Mumbai, Maharashtra 400043, India
 
-",19.065084,72.923372,,,,,,
+",19.065084,72.923372,5/23/2014,,A,active,324,Pothole-32,
 123,"Bharat Petroleum Refinery, Mahul, Trombay
 Mumbai, Maharashtra, India
-",19.018884,72.896459,,,,,,
+",19.018884,72.896459,8/22/2014,,A,active,1981,Pothole-33,
 124,"20th Rd, Chembur Gaothan, Chembur
 Mumbai, Maharashtra 400071, India
-",19.059507,72.899135,,,,,,
+",19.059507,72.899135,7/16/2014,,A,active,7472,Pothole-34,
 125,"913, Civic Centre Rd, Anushakti Nagar
 Mumbai, Maharashtra, India
-",19.035693,72.927517,,,,,,
+",19.035693,72.927517,5/28/2014,,A,active,250,Pothole-35,
 126,"Bhandarli Rd, Dahisar, Mumbra
 Navi Mumbai, Maharashtra 421204, India
-",19.127813,73.056486,,,,,,
+",19.127813,73.056486,7/4/2014,,C,active,920,Pothole-1,
 127,"Malang Rushi Rd, Ekta Nagar, Mandala, Mankhurd
 Mumbai, Maharashtra 400043, India
-",19.054367,72.936695,,,,,,
+",19.054367,72.936695,1/5/2014,,C,active,9543,Pothole-2,
 128,"Indira Nagar, Kamala Nagar, Shivaji Nagar
 Mumbai, Maharashtra, India
 
-",19.063459,72.93052,,,,,,
+",19.063459,72.93052,4/8/2014,,C,active,2576,Pothole-3,
 129,"L Melville Marg, Nagpada, Madanpura
 Mumbai, Maharashtra 400008, India
-",18.972883,72.826962,,,,,,
+",18.972883,72.826962,6/18/2014,,C,active,6415,Pothole-4,
 130,"Road Number 10, Govandi Slums, Shivaji Nagar
 Mumbai, Maharashtra 400043, India
-",19.065828,72.927734,,,,,,
+",19.065828,72.927734,6/7/2014,,C,active,2954,Pothole-5,
 131,"F-4
 Old Navy Nagar, Colaba, Mumbai, Maharashtra, India
-",18.907087,72.8082,,,,,,
+",18.907087,72.8082,11/20/2014,,C,active,5318,Pothole-6,
 132,"22, Road Number 3, Phase 1, Shivaji Nagar
 Mumbai, Maharashtra, India
-",19.063711,72.921403,,,,,,
+",19.063711,72.921403,12/27/2014,,C,active,5856,Pothole-7,
 133,"45-B, Shankar Rao Naram Path, Lower Parel
 Mumbai, Maharashtra, India
-",19.000991,72.825525,,,,,,
+",19.000991,72.825525,8/23/2014,,C,active,3305,Pothole-8,
 134,"Fedora Impex Co
 A Merchant Rd, Anant Wadi, Kalbadevi, Mumbai, Maharashtra 400002, India
-",18.951586,72.827677,,,,,,
+",18.951586,72.827677,7/11/2014,,C,active,1558,Pothole-9,
 135,"ICICI Bank ATM
 Sector 29, Belapur, Navi Mumbai, 400614, India
-",19.021085,73.039529,,,,,,
+",19.021085,73.039529,3/19/2014,,C,active,2462,Pothole-10,
 136,"Mutton St, Kumbharwada
 Mumbai, Maharashtra 400003, India
-",18.959295,72.829885,,,,,,
+",18.959295,72.829885,5/8/2014,,C,active,5165,Pothole-11,
 137,"Cross Road Number 18, Mahape
 Navi Mumbai, Maharashtra 400701, India
-",19.115339,73.022688,,,,,,
+",19.115339,73.022688,12/9/2014,,C,active,9925,Pothole-12,
 138,"1/594, Bhulabhai Desai Marg, Breach Candy, Cumballa Hill
 Mumbai, Maharashtra, India
-",18.965992,72.804133,,,,,,
+",18.965992,72.804133,5/8/2014,,C,active,9331,Pothole-13,
 139,"Sector 40, Seawoods
 Navi Mumbai, Maharashtra, India
-",19.021719,73.01559,,,,,,
+",19.021719,73.01559,8/31/2014,,C,active,4368,Pothole-14,
 140,"36/A, Neapean Sea Rd, Simla Nagar, Malabar Hill
 Mumbai, Maharashtra, India
-",18.958786,72.803218,,,,,,
+",18.958786,72.803218,8/17/2014,,C,active,9398,Pothole-15,
 141,"23, PL Lokhande Marg, ACC Nagar, Chedda Nagar
 Mumbai, Maharashtra 400043, India
-",19.060847,72.916541,,,,,,
+",19.060847,72.916541,8/13/2014,,C,active,809,Pothole-16,
 142,"40/I, Bhagwantrao Paralkar Rd, Parel
 Mumbai, Maharashtra 400012, India
-",19.000364,72.844797,,,,,,
+",19.000364,72.844797,8/18/2014,,C,active,7672,Pothole-17,
 143,"Mavli Mandal Marg, Dhobi Ali, Charai, Thane West
 Thane, Maharashtra 400601, India
-",19.19886,72.975107,,,,,,
+",19.19886,72.975107,2/25/2014,,C,active,1077,Pothole-18,
 144,"Jail Rd, Kharkar Alley, Thane West
 Thane, Maharashtra 400601, India
-",19.197599,72.98222,,,,,,
+",19.197599,72.98222,3/5/2014,,C,active,2175,Pothole-19,
 145,"Swa Datta Mohite Margh, Mhada, Vasant Vihar, Thane West
 Thane, Maharashtra 400610, India
-",19.225751,72.967947,,,,,,
+",19.225751,72.967947,6/14/2014,,C,active,3534,Pothole-20,
 146,"P-82, Lal Dutta Marg, BS Ambedkar Nagar, Anushakti Nagar
 Mumbai, Maharashtra, India
-",19.039336,72.911155,,,,,,
+",19.039336,72.911155,6/14/2014,,C,active,3480,Pothole-21,
 147,"105-118, Waman Wadi Rd, Sindhi Society, Chembur
 Mumbai, Maharashtra 400071, India
-",19.050268,72.887955,,,,,,
+",19.050268,72.887955,9/6/2014,,C,active,9106,Pothole-22,
 148,"Unnamed Rd, Sonar Pada, Dombivli East
 Dombivli, Maharashtra 421203, India
-",19.18674,73.10308,,,,,,
+",19.18674,73.10308,8/16/2014,,C,active,3956,Pothole-23,
 149,"Assisi Nagar
 PL Lokhande Marg, Mumbai, Maharashtra, India
-",19.061747,72.912288,,,,,,
+",19.061747,72.912288,10/24/2014,,C,active,7110,Pothole-24,
 150,"38, Manori - Gorai Rd, Gorai
 Mumbai, Maharashtra 400092, India
-",19.22815,72.781123,,,,,,
+",19.22815,72.781123,8/2/2014,,C,active,3172,Pothole-25,
 151,"Uttan Rd, 
 Koliwada, Gorai Mumbai, Maharashtra 401106, India    
-",19.2508,72.788095,,,,,,
+",19.2508,72.788095,10/6/2014,,C,active,2366,Pothole-26,
 152,"Uttan Rd, Dongri, Uttan
 Mira Bhayandar, Maharashtra 401106, India
-",19.277769,72.797071,,,,,,
+",19.277769,72.797071,6/21/2014,,C,active,8112,Pothole-27,
 153,"Uttan
 Mira Bhayandar, Maharashtra, India
-",19.278579,72.790827,,,,,,
+",19.278579,72.790827,3/8/2014,,C,active,1597,Pothole-28,
 154,"Unnamed Rd, Dongri, Uttan
 Mira Bhayandar, Maharashtra 401106, India
-",19.283116,72.79396,,,,,,
+",19.283116,72.79396,4/30/2014,,C,active,8341,Pothole-29,
 155,"Dongri, Uttan
 Mira Bhayandar, Maharashtra, India
-",19.284104,72.796179,,,,,,
+",19.284104,72.796179,1/15/2014,,C,active,3784,Pothole-30,
 156,"Alibaug Rd, Dongri, Uttan
 Mira Bhayandar, Maharashtra 401106, India
-",19.277987,72.781459,,,,,,
+",19.277987,72.781459,8/24/2014,,F,active,7328,Pothole-1,
 157,"22, Uttan Pali Rd, Dongri, Uttan
 Mira Bhayandar, Maharashtra, India
-",19.295304,72.785193,,,,,,
+",19.295304,72.785193,12/22/2014,,F,active,7217,Pothole-2,
 158,"22, Uttan Pali Rd, Dongri, Uttan
 Mira Bhayandar, Maharashtra, India
-",19.292919,72.78542,,,,,,
+",19.292919,72.78542,3/30/2014,,F,active,3834,Pothole-3,
 159,"Tarodi Rd, Dongri, Uttan
 Mira Bhayandar, Maharashtra 401106, India
-",19.296868,72.799389,,,,,,
+",19.296868,72.799389,9/24/2014,,F,active,650,Pothole-4,
 160,"28, Uttan Rd, Uttan
 Mira Bhayandar, Maharashtra, India
-",19.292175,72.814653,,,,,,
+",19.292175,72.814653,11/29/2014,,F,active,6211,Pothole-5,
 161,"22, Uttan Pali Rd, Dongri, Uttan
 Mira Bhayandar, Maharashtra, India
-",19.295628,72.785065,,,,,,
+",19.295628,72.785065,3/3/2014,,F,active,8922,Pothole-6,
 162,"WING-D, Uttan Rd, Chandulal Park, Bhayandar West
 Mira Bhayandar, Maharashtra, India
-",19.299139,72.836172,,,,,,
+",19.299139,72.836172,5/23/2014,,F,active,3087,Pothole-7,
 163,"1-B, Uttan Rd, Burhani Nagar, Bhayandar West
 Mira Bhayandar, Maharashtra, India
-",19.295281,72.841837,,,,,,
+",19.295281,72.841837,4/12/2014,,F,active,5641,Pothole-8,
 164,"Dhanlaxmi Book & Novelty
 3, Uttan Rd, Chandulal Park, Bhayandar West, Thane, Maharashtra 401101, India
-",19.29995,72.844061,,,,,,
+",19.29995,72.844061,7/5/2014,,F,active,1800,Pothole-9,
 165,"Uttan Rd, Mohammed Colony, Bhayandar West
 Mira Bhayandar, Maharashtra 401101, India
-",19.294522,72.845134,,,,,,
+",19.294522,72.845134,12/23/2014,,F,active,9346,Pothole-10,
 166,"2003, Uttan Rd, Uttan
 Mira Bhayandar, Maharashtra 401101, India
-",19.297623,72.822662,,,,,,
+",19.297623,72.822662,4/6/2014,,F,active,3643,Pothole-11,
 167,"WING-B, Dr Keshav Baliram Hedgewar Rd, Burhani Nagar, Bhayandar West
 Mira Bhayandar, Maharashtra, India
-",19.300446,72.846797,,,,,,
+",19.300446,72.846797,10/2/2014,,F,active,8045,Pothole-12,
 168,"
 Fatak Rd, Chandmal Nagar, Bhayandar West
 Mira Bhayandar, Maharashtra 401101, India
-",19.299504,72.84978,,,,,,
+",19.299504,72.84978,8/28/2014,,F,active,6927,Pothole-13,
 169,"Dr Keshav Baliram Hedgewar Rd, Chandmal Nagar, Bhayandar West
 Mira Bhayandar, Maharashtra 401101, India
-",19.299778,72.848846,,,,,,
+",19.299778,72.848846,4/10/2014,,F,active,8996,Pothole-14,
 170,"Ram Mandir Rd, Sripal Nagar, Bhayandar West
 Mira Bhayandar, Maharashtra 401101, India
-",19.30076,72.848567,,,,,,
+",19.30076,72.848567,7/18/2014,,F,active,3461,Pothole-15,
 171,"Shramjivi Kamgar
 Station Rd, Chandulal Park, Bhayandar West, Mira Bhayandar, Maharashtra 401101, India
-",19.301347,72.847967,,,,,,
+",19.301347,72.847967,3/8/2014,,F,active,3165,Pothole-16,
 172,"WING-B, Uttan Rd, Chandulal Park, Bhayandar West
 Mira Bhayandar, Maharashtra, India
-",19.300355,72.845252,,,,,,
+",19.300355,72.845252,5/14/2014,,F,active,182,Pothole-17,
 173,"J. P. Thakur Rd, Chandmal Nagar, Bhayandar West
 Mira Bhayandar, Maharashtra 401101, India
-",19.299889,72.847945,,,,,,
+",19.299889,72.847945,4/8/2014,,F,active,2060,Pothole-18,
 174,"
 Ram Mandir Rd, Sripal Nagar, Bhayandar West
 Mira Bhayandar, Maharashtra 401101, India
-",19.300707,72.848581,,,,,,
+",19.300707,72.848581,2/17/2014,,F,active,8147,Pothole-19,
 175,"Dr Keshav Baliram Hedgewar Rd, Chandmal Nagar, Bhayandar West
 Mira Bhayandar, Maharashtra 401101, India
-",19.299755,72.848822,,,,,,
+",19.299755,72.848822,9/24/2014,,F,active,8348,Pothole-20,
 176,"Sheetal Dugdhalay
 60 Feet Rd, Sripal Nagar, Bhayandar West, Mira Bhayandar, Maharashtra 401101, India
-",19.305147,72.852022,,,,,,
+",19.305147,72.852022,4/18/2014,,F,active,3235,Pothole-21,
 177,"Bakol St, Sripal Nagar, Bhayandar West
 Mira Bhayandar, Maharashtra 401101, India
-",19.30151,72.850412,,,,,,
+",19.30151,72.850412,12/16/2014,,F,active,1913,Pothole-22,
 178,"Hasmukh Estate Agency
 Thane, Maharashtra 401101, India
-",19.301844,72.8523,,,,,,
+",19.301844,72.8523,1/2/2014,,F,active,1970,Pothole-23,
 179,"A-3, Dr Keshav Baliram Hedgewar Rd, Shanti Nagar, Bhayandar West
 Mira Bhayandar, Maharashtra, India
-",19.299394,72.852987,,,,,,
+",19.299394,72.852987,5/29/2014,,F,active,7886,Pothole-24,
 180,"Bhayandar Flyover, Venkatesh Park, Bhayandar West
 Mira Bhayandar, Maharashtra 401105, India
-",19.295262,72.853749,,,,,,
+",19.295262,72.853749,6/4/2014,,F,active,5338,Pothole-25,
 181,"Golden Nest Cir, Geeta Nagar, Mira Road East
 Mira Bhayandar, Maharashtra 401105, India
-",19.295495,72.858426,,,,,,
+",19.295495,72.858426,7/22/2014,,F,active,7808,Pothole-26,
 182,"WING-C, Mira Bhayandar Rd, Qamar Park, Bhayandar East
 Mira Bhayandar, Maharashtra, India
-",19.297455,72.856377,,,,,,
+",19.297455,72.856377,9/20/2014,,F,active,9675,Pothole-27,
 183,"PERFECT FABRICATORS
 Bhayandar East, Maharashtra 401105, India
-",19.301014,72.856973,,,,,,
+",19.301014,72.856973,10/12/2014,,F,active,6333,Pothole-28,
 184,"Mataji Novelty
 Cabin Rd, Kharegaon, Bhayandar East, Mira Bhayandar, Maharashtra 401105, India
-",19.30556,72.85428,,,,,,
+",19.30556,72.85428,4/14/2014,,F,active,694,Pothole-29,
 185,"Snow White Tours & Travels
 Panju Ferry Terminal Rd, Rose Nagar, Naigaon West, Vasai, Maharashtra 401207, India
-",19.308072,72.853142,,,,,,
+",19.308072,72.853142,7/18/2014,,F,active,5010,Pothole-30,
 186,"Rajshree
 Station Rd, Chandan nagar, Bhayandar East, Mira Bhayandar, Maharashtra 401105, India
-",19.310421,72.853207,,,,,,
+",19.310421,72.853207,10/26/2014,,F,active,1320,Pothole-31,
 187,"CA Ajay Jose
 Jesal Park, Bhayandar East, Mira Bhayandar, Maharashtra 401105, India
-",19.314552,72.853765,,,,,,
+",19.314552,72.853765,9/9/2014,,F,active,2885,Pothole-32,
 188,"WING-B, Jessal Park Rd, Jesal Park, Bhayandar East
 Mira Bhayandar, Maharashtra, India
-",19.315443,72.856468,,,,,,
+",19.315443,72.856468,2/28/2014,,F,active,2807,Pothole-33,
 189,"Kaustubh Poly Clinic And Health Care Center
 Jesal Park Rd, Bandarwadi, Bhayandar East, Mira Bhayandar, Maharashtra 401105, India
-",19.314612,72.858421,,,,,,
+",19.314612,72.858421,8/21/2014,,F,active,3095,Pothole-34,
 190,"Rajsri - Om Sawali Online
 B Patil Rd, Lazarus Park, Bhayandar East, Mira Bhayandar, Maharashtra 401105, India
-",19.303981,72.860288,,,,,,
+",19.303981,72.860288,8/20/2014,,F,active,836,Pothole-35,
 191,"Prabhakar Dattu Mhatre Marg, Indira Nagar, Bhayandar East
 Mira Bhayandar, Maharashtra 401105, India
-",19.300619,72.863013,,,,,,
+",19.300619,72.863013,2/27/2014,,F,active,3598,Pothole-36,
 192,"B-16, Deepak Hospital Rd, Panchamratna Park, Mira Road East
 Mira Bhayandar, Maharashtra 401105, India
-",19.299991,72.867734,,,,,,
+",19.299991,72.867734,5/27/2014,,F,active,1713,Pothole-37,
 193,"8-A, Beverly Park Rd, Beverly Park, Mira Road East
 Mira Bhayandar, Maharashtra, India
-",19.292923,72.872261,,,,,,
+",19.292923,72.872261,7/15/2014,,F,active,467,Pothole-38,
 194,"Welcome General Stores
 Mumbai, Maharashtra 400070, India
-",19.280103,72.877025,,,,,,
+",19.280103,72.877025,5/8/2014,,F,active,8008,Pothole-39,
 195,"Srishti Rd, Mira Road East
 Mira Bhayandar, Maharashtra 401107, India
-",19.27508,72.870158,,,,,,
+",19.27508,72.870158,9/29/2014,,F,active,9796,Pothole-40,
 196,"Mira Bhayandar Rd, Kashimira, Mira Road East
 Mira Bhayandar, Maharashtra 401107, India
-",19.272771,72.882604,,,,,,
+",19.272771,72.882604,9/29/2014,,F,active,6729,Pothole-41,
 197,"Hari Om CHS
 Siddhi Vinayak Nagar, Mira Road East, Mira Bhayandar, Maharashtra 400068, India
-",19.269206,72.874879,,,,,,
+",19.269206,72.874879,8/9/2014,,F,active,3300,Pothole-42,
 198,"Jari Mari Mandir Rd, Laxmi Baug, Kashigaon, Mira Road East
 Mira Bhayandar, Maharashtra 401107, India
-",19.273014,72.885608,,,,,,
+",19.273014,72.885608,11/27/2014,,F,active,6535,Pothole-43,
 199,"Srishti Rd, Srishti Complex, Mira Road East
 Mira Bhayandar, Maharashtra 401107, India
-",19.275058,72.869946,,,,,,
+",19.275058,72.869946,5/11/2014,,F,active,8779,Pothole-44,
 200,"Little Champ Pre-School
 Vijay Park, Mira Road East, Mira Bhayandar, Maharashtra 401107, India
-",19.277377,72.873058,,,,,,
+",19.277377,72.873058,9/26/2014,,F,active,7896,Pothole-45,
 201,"Miragaon Rd, Gaurav Galaxy, Mira Road East
 Mira Bhayandar, Maharashtra 401107, India
-",19.273103,72.87619,,,,,,
+",19.273103,72.87619,4/4/2014,,F,active,4842,Pothole-46,
 202,"5, Bhaktivedanta Swami Marg, MIDC, Mira Road East
 Mira Bhayandar, Maharashtra, India
-",19.268769,72.875783,,,,,,
+",19.268769,72.875783,8/8/2014,,F,active,3275,Pothole-47,
 203,"Penkarpada Rd, Pandurang Wadi, Mira Road East
 Mira Bhayandar, Maharashtra 400068, India
-",19.264637,72.870976,,,,,,
+",19.264637,72.870976,8/26/2014,,F,active,6657,Pothole-48,
 204,"Balaram Gawand Marg, Penkarpada, Mira Road East
 Mira Bhayandar, Maharashtra 400068, India
-",19.262084,72.87192,,,,,,
+",19.262084,72.87192,1/25/2014,,F,active,9631,Pothole-49,
 205,"Branded Monk Technologies
 Western Express Hwy, Mira Road East, Mumbai, Maharashtra 401104, India
-",19.267391,72.876126,,,,,,
+",19.267391,72.876126,4/18/2014,,F,active,4238,Pothole-50,
 206,"Hermitage Housing Society Rd, MIDC, Mira Road East
 Mira Bhayandar, Maharashtra 400068, India
-",19.266824,72.87913,,,,,,
+",19.266824,72.87913,7/8/2014,,F,active,4565,Pothole-51,
 207,"WholesaleDock.com
 Mira Road East, Maharashtra 401107, India
-",19.273022,72.880375,,,,,,
+",19.273022,72.880375,8/27/2014,,G,active,1351,Pothole-1,
 208,"Al-Masharik Auto Parts
 Mira Bhayandar Rd, Kashimira, Mira Road East, Mira Bhayandar, Maharashtra 401107, India
-",19.275291,72.881791,,,,,,
+",19.275291,72.881791,8/26/2014,,G,active,3348,Pothole-2,
 209,"Kashigaon Rd, Shivneri Nagar, Mira Road East
 Mira Bhayandar, Maharashtra 401107, India
-",19.270916,72.88604,,,,,,
+",19.270916,72.88604,2/6/2014,,G,active,2206,Pothole-3,
 210,"jari mari mandir Rd, Kashigaon, Mira Road East
 Mira Bhayandar, Maharashtra 401107, India
-",19.269336,72.887198,,,,,,
+",19.269336,72.887198,6/9/2014,,G,active,9151,Pothole-4,
 211,"Mandvi Pada, Kashigaon, Mira Road East
 Mira Bhayandar, Maharashtra, India
-",19.266925,72.88958,,,,,,
+",19.266925,72.88958,7/9/2014,,G,active,5209,Pothole-5,
 212,"Madina Clinic
 Kashigaon, Mira Road East, Mira Bhayandar, Maharashtra 401107, India
-",19.273448,72.890095,,,,,,
+",19.273448,72.890095,12/8/2014,,G,active,578,Pothole-6,
 213,"Durga Residency
 Indralok Phase 3, Mira Bhayandar, Maharashtra, India
-",19.301114,72.868809,,,,,,
+",19.301114,72.868809,8/8/2014,,G,active,9092,Pothole-7,
 214,"Station Rd, Bharti Nagar, Mira Road East
 Mira Bhayandar, Maharashtra 401107, India
-",19.284,72.865698,,,,,,
+",19.284,72.865698,7/15/2014,,G,active,9231,Pothole-8,
 215,"River Shive
-",19.273367,72.89267,,,,,,
+",19.273367,72.89267,1/22/2014,,G,active,3460,Pothole-9,
 216,"24
 Mashachapada, Mira Road East, Mira Bhayandar, Maharashtra, India
-",19.273265,72.893121,,,,,,
+",19.273265,72.893121,4/20/2014,,G,active,5596,Pothole-10,
 217,"Mandvi Pada, Kashigaon, Mira Road East
 Mira Bhayandar, Maharashtra, India
-",19.268262,72.888507,,,,,,
+",19.268262,72.888507,5/20/2014,,G,active,7730,Pothole-11,
 218,"Marathi Shala Rd, Chimaji Nagar, Penkarpada, Mira Road East
 Mira Bhayandar, Maharashtra 400068, India
-",19.265771,72.86868,,,,,,
+",19.265771,72.86868,2/27/2014,,G,active,827,Pothole-12,
 219,"Jogger's Park Rd, Poonam Sagar Complex, Mira Road East
 Mira Bhayandar, Maharashtra 401107, India
-",19.273711,72.859207,,,,,,
+",19.273711,72.859207,2/24/2014,,G,active,9866,Pothole-13,
 220,"B-2, Swaminarayan Rd, Sector 3, Mira Road East
 Mira Bhayandar, Maharashtra, India
-",19.277585,72.861503,,,,,,
+",19.277585,72.861503,8/20/2014,,G,active,6964,Pothole-14,
 221,"complete dental clinic
 Ghodbunder Rd, Thane West, Thane, Maharashtra 400615, India
-",19.269208,72.964722,,,,,,
+",19.269208,72.964722,7/18/2014,,G,active,6241,Pothole-15,
 222,"Thane Bhiwandi Rd, Kasarvadavali, Thane West
 Thane, Maharashtra 400615, India
-",19.271395,72.96749,,,,,,
+",19.271395,72.96749,3/1/2014,,G,active,2675,Pothole-16,
 223,"Thane Bhiwandi Rd, Kasarvadavali, Thane West
 Thane, Maharashtra 400615, India
-",19.270646,72.969357,,,,,,
+",19.270646,72.969357,12/22/2014,,G,active,8598,Pothole-17,
 224,"Ram Mandir Rd, Vijay Park, Kasarvadavali, Thane West
 Thane, Maharashtra 400615, India
-",19.269562,72.968659,,,,,,
+",19.269562,72.968659,9/7/2014,,G,active,7322,Pothole-18,
 225,"Ram Mandir Rd, Vijay Park, Kasarvadavali, Thane West
 Thane, Maharashtra 400615, India
-",19.268316,72.968209,,,,,,
+",19.268316,72.968209,7/23/2014,,G,active,1482,Pothole-19,
 226,"Thane Bhiwandi Rd, Kasarvadavali, Thane West
 Thane, Maharashtra 400615, India
-",19.27094,72.96838,,,,,,
+",19.27094,72.96838,7/28/2014,,G,active,9333,Pothole-20,
 227,"Koliwada, Thane West
 Thane, Maharashtra, India
-",19.272155,72.969528,,,,,,
+",19.272155,72.969528,12/30/2014,,G,active,7992,Pothole-21,
 228,"Kasarvadavali, Thane West
 Thane, Maharashtra, India
-",19.270251,72.971417,,,,,,
+",19.270251,72.971417,7/19/2014,,G,active,5988,Pothole-22,
 229,"Vijay Vilas Rd, Vijay Park, Kasarvadavali, Thane West
 Thane, Maharashtra 400615, India
-",19.265055,72.970172,,,,,,
+",19.265055,72.970172,1/10/2014,,G,active,4365,Pothole-23,
 230,"Vijay Vilas Rd, Vijay Park, Kavesar, Thane West
 Thane, Maharashtra 400615, India
-",19.265146,72.971105,,,,,,
+",19.265146,72.971105,12/24/2014,,G,active,9932,Pothole-24,
 231,"Ghodbunder Rd, Kavesar, Thane West
 Thane, Maharashtra 400615, India
-",19.262138,72.968756,,,,,,
+",19.262138,72.968756,6/22/2014,,G,active,6391,Pothole-25,
 232,"31-32, Wagbil Rd, Vijay Nagari, Thane West
 Thane, Maharashtra 400607, India
-",19.258786,72.975536,,,,,,
+",19.258786,72.975536,10/10/2014,,G,active,8347,Pothole-26,
 233,"Ghodbunder Rd, Anand Nagar, Thane West
 Thane, Maharashtra 400615, India
-",19.267415,72.966395,,,,,,
+",19.267415,72.966395,9/5/2014,,G,active,9349,Pothole-27,
 234,"Swastik Residency Rd, Kavesar, Thane West
 Thane, Maharashtra 400615, India
-",19.261764,72.971073,,,,,,
+",19.261764,72.971073,7/1/2014,,G,active,8170,Pothole-28,
 235,"Vijay Vilas Rd, Vijay Park, Kavesar, Thane West
 Thane, Maharashtra 400615, India
-",19.265167,72.974764,,,,,,
+",19.265167,72.974764,9/5/2014,,G,active,4184,Pothole-29,
 236,"4, Vijay Garden Rd, Kavesar, Thane West
 Thane, Maharashtra 400615, India
-",19.263075,72.974528,,,,,,
+",19.263075,72.974528,12/3/2014,,G,active,2648,Pothole-30,
 237,"Vijay Garden Rd, Kavesar, Thane West
 Thane, Maharashtra 400615, India
-",19.260743,72.971485,,,,,,
+",19.260743,72.971485,10/21/2014,,G,active,1990,Pothole-31,
 238,"Shri Ganesh Flour Mill
 Wagbil Rd, Kavesar, Thane West, Thane, Maharashtra 400607, India
-",19.257634,72.97369,,,,,,
+",19.257634,72.97369,11/19/2014,,G,active,9187,Pothole-32,
 239,"Wagbil Rd, Anu Nagar, Vijay Nagari, Thane West
 Thane, Maharashtra 400607, India
-",19.25734,72.976275,,,,,,
+",19.25734,72.976275,12/2/2014,,G,active,9079,Pothole-33,
 240,"Wood St, Hiranandani Estate, Thane West
 Thane, Maharashtra 400607, India
-",19.255882,72.980728,,,,,,
+",19.255882,72.980728,9/4/2014,,G,active,5548,Pothole-34,
 241,"Hiranandani Cir, Hiranandani Estate, Thane West
 Thane, Maharashtra 400607, India
-",19.254555,72.982326,,,,,,
+",19.254555,72.982326,4/2/2014,,G,active,1689,Pothole-35,
 242,"H D koparkar Rd, Hiranandani Estate, Thane West
 Thane, Maharashtra 400607, India
-",19.252428,72.980642,,,,,,
+",19.252428,72.980642,1/30/2014,,G,active,3229,Pothole-36,
 243,"Regency St, Hiranandani Estate, Thane West
 Thane, Maharashtra 400607, India
-",19.249895,72.980942,,,,,,
+",19.249895,72.980942,5/24/2014,,G,active,6770,Pothole-37,
 244,"Brahmand Patlipada Link Rd, Brahmand, Thane West
 Thane, Maharashtra 400607, India
-",19.246279,72.981672,,,,,,
+",19.246279,72.981672,2/6/2014,,G,active,7079,Pothole-38,
 245,"B4, Bramhand Rd, Brahmand, Thane West
 Thane, Maharashtra, India
-",19.243737,72.982895,,,,,,
+",19.243737,72.982895,12/7/2014,,G,active,135,Pothole-39,
 246,"Tikuji Ni Wadi Rd, Manpada, Thane West
 Thane, Maharashtra 400607, India
-",19.2362,72.975771,,,,,,
+",19.2362,72.975771,8/25/2014,,G,active,6608,Pothole-40,
 247,"mt Gladys Alvares Rd, Kokanipada, Thane West
 Thane, Maharashtra 400610, India
-",19.229312,72.969763,,,,,,
+",19.229312,72.969763,2/1/2014,,G,active,5127,Pothole-41,
 248,"Saket Rd, Devram Nagar, Balkum Pada, Majiwada
 Thane, Maharashtra 400608, India
-",19.219992,72.990019,,,,,,
+",19.219992,72.990019,11/15/2014,,G,active,5198,Pothole-42,
 249,"Saket Rd, Laxmi Nagar, Balkum Pada, Majiwada
 Thane, Maharashtra 400608, India
-",19.216142,72.991521,,,,,,
+",19.216142,72.991521,11/8/2014,,G,active,5503,Pothole-43,
 250,"Pokharan Road Number 2, Subhash Nagar, Thane West
 Thane, Maharashtra 400606, India
-",19.214238,72.976973,,,,,,
+",19.214238,72.976973,12/18/2014,,G,active,8777,Pothole-44,
 251,"Saket Rd, Laxmi Nagar, Balkum Pada, Majiwada
 Thane, Maharashtra 400608, India
-",19.21671,72.990791,,,,,,
+",19.21671,72.990791,10/27/2014,,G,active,5111,Pothole-45,
 252,"139, Deonar Rd, Patilwadi, Govandi East
 Mumbai, Maharashtra, India
 
-",19.053742,72.923463,,,,,,
+",19.053742,72.923463,2/23/2014,,G,active,9947,Pothole-46,
 253,"74-B
 Chembur, Mumbai, Maharashtra, India
-",19.042074,72.891736,,,,,,
+",19.042074,72.891736,8/17/2014,,G,active,6189,Pothole-47,
 254,"C-11 G BLOCK
 Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra, India
-",19.060947,72.862483,,,,,,
+",19.060947,72.862483,5/27/2014,,H,active,3076,Pothole-1,
 255,"N-3
 Bharam Nagar, Bandra East, Mumbai, Maharashtra, India
-",19.062434,72.856758,,,,,,
+",19.062434,72.856758,10/12/2014,,H,active,7181,Pothole-2,
 256,"B-276, Samaj Mandir Hall Rd, Government Colony, Bandra East
 Mumbai, Maharashtra, India
-",19.062214,72.85268,,,,,,
+",19.062214,72.85268,3/15/2014,,H,active,2362,Pothole-3,
 257,"2, Amrut Nagar-Sainath Rd, Indira Nagar, Ghatkopar West
 Mumbai, Maharashtra 400086, India
-",19.099551,72.910569,,,,,,
+",19.099551,72.910569,10/6/2014,,H,active,7777,Pothole-4,
 258,"
 A-107, Turbhe Rd, Chandivali, Powai
 Mumbai, Maharashtra 400072, India
-",19.106311,72.89991,,,,,,
+",19.106311,72.89991,6/20/2014,,H,active,1381,Pothole-5,
 259,"Orchard Ave, Panchkutir Ganesh Nagar, Powai
 Mumbai, Maharashtra 400076, India
-",19.12201,72.91016,,,,,,
+",19.12201,72.91016,3/6/2014,,H,active,9125,Pothole-6,
 260,"B-2
 BSNL Colony, Powai, Mumbai, Maharashtra, India
-",19.123994,72.917019,,,,,,
+",19.123994,72.917019,9/14/2014,,H,active,39,Pothole-7,
 261,"61
 Kanjurmarg West, Bhandup West, Mumbai, Maharashtra, India
-",19.12632,72.924188,,,,,,
+",19.12632,72.924188,7/5/2014,,H,active,4823,Pothole-8,
 262,"A-42, Police Station Rd, Kanjurmarg East
 Mumbai, Maharashtra, India
-",19.129031,72.934982,,,,,,
+",19.129031,72.934982,5/29/2014,,H,active,5262,Pothole-9,
 263,"Gopal Krishna Gokhale Rd, Hanuman Chowk, Mulund East
 Mumbai, Maharashtra 400081, India
-",19.169408,72.958492,,,,,,
+",19.169408,72.958492,2/16/2014,,H,active,8960,Pothole-10,
 264,"502, Mahatma Gandhi Rd, Vidya Vihar, Mulund West
 Mumbai, Maharashtra, India
-",19.172845,72.955709,,,,,,
+",19.172845,72.955709,12/19/2014,,H,active,4689,Pothole-11,
 265,"11, Bhakti Marg, Jagjivan Ram Nagar, Mulund West
 Mumbai, Maharashtra, India
-",19.179256,72.949584,,,,,,
+",19.179256,72.949584,6/18/2014,,H,active,5286,Pothole-12,
 266,"Swami Vivekananda Rd, Shivaji Nagar, Thane West
 Thane, Maharashtra 400602, India
-",19.185762,72.966181,,,,,,
+",19.185762,72.966181,2/11/2014,,H,active,4323,Pothole-13,
 267,"Balkum Rd, Raheja Complex, Majiwada
 Thane, Maharashtra 400608, India
-",19.222282,72.993196,,,,,,
+",19.222282,72.993196,7/18/2014,,H,active,3096,Pothole-14,
 268,"102 /A 6, Highland Gardens Rd, Thane West
 Thane, Maharashtra 400608, India
-",19.223714,72.983552,,,,,,
+",19.223714,72.983552,7/31/2014,,H,active,5792,Pothole-15,
 269,"Kiran Mill Colony, Kolshet Rd, Thane West
 Thane, Maharashtra, India
-",19.241233,72.991186,,,,,,
+",19.241233,72.991186,9/19/2014,,H,active,192,Pothole-16,
 270,"Daighar Gaon
 Thane, Maharashtra, India
-",19.137248,73.05343,,,,,,
+",19.137248,73.05343,12/22/2014,,H,active,325,Pothole-17,
 271,"Shilphata
 Navi Mumbai, Maharashtra, India
-",19.150073,73.03999,,,,,,
+",19.150073,73.03999,3/10/2014,,H,active,2279,Pothole-18,
 272,"C-46
 MIDC, Pawne, Navi Mumbai, Maharashtra 400705, India
-",19.084029,73.025379,,,,,,
+",19.084029,73.025379,9/3/2014,,H,active,9975,Pothole-19,
 273,"C 167, Pawane Midc Road Number 7, T.T.C. Industrial Area, Pawne
 Navi Mumbai, Maharashtra 400703, India
-",19.090413,73.030983,,,,,,
+",19.090413,73.030983,12/21/2014,,H,active,2496,Pothole-20,
 274,"T-223, Ramdas Swamy Marg, Sector 4, Airoli
 Navi Mumbai, Maharashtra, India
-",19.151322,72.996615,,,,,,
+",19.151322,72.996615,5/8/2014,,H,active,3799,Pothole-21,
 275,"C-19
 Sector 4, Airoli, Navi Mumbai, Maharashtra, India
-",19.153444,72.998371,,,,,,
+",19.153444,72.998371,4/8/2014,,H,active,5378,Pothole-22,
 276,"7, Gholai Nagar Rd, Mafatlal Colony, Kalwa
 Thane, Maharashtra, India
-",19.202097,73.005536,,,,,,
+",19.202097,73.005536,1/26/2014,,H,active,8542,Pothole-23,
 277,"Anjurdive
 Bhiwandi, Maharashtra, India
-",19.229751,73.032769,,,,,,
+",19.229751,73.032769,12/15/2014,,H,active,2479,Pothole-24,
 278,"BA-38
 MIDC, Navi Mumbai, Maharashtra, India
-",19.108133,73.029097,,,,,,
+",19.108133,73.029097,10/12/2014,,H,active,420,Pothole-25,
 280,"Sector 21, Nerul
 Navi Mumbai, Maharashtra, India
-",19.032378,73.020607,,,,,,
+",19.032378,73.020607,10/7/2014,,H,active,238,Pothole-26,
 281,"Kendriya Vihar Rd, Sector 7, Kharghar
 Navi Mumbai, Maharashtra 410210, India
-",19.036602,73.06493,,,,,,
+",19.036602,73.06493,7/26/2014,,H,active,33,Pothole-27,
 282,"Sector 12, Kharghar
 Navi Mumbai, Maharashtra, India
-",19.04039,73.066985,,,,,,
+",19.04039,73.066985,8/13/2014,,H,active,1010,Pothole-28,
 283,"KPC High School Rd, Kesar Symphony, Sector-19, Kharghar
 Navi Mumbai, Maharashtra 410210, India
-",19.046866,73.077477,,,,,,
+",19.046866,73.077477,7/21/2014,,H,active,518,Pothole-29,
 284,"Umadeep Cooperative Housing Society
 Kharghar, Navi Mumbai, Maharashtra 410210, India
-",19.068372,73.07137,,,,,,
+",19.068372,73.07137,10/17/2014,,H,active,6595,Pothole-30,
 285,"Unnamed Rd, Sector 37, Rohinjan
 Navi Mumbai, Maharashtra 410210, India
-",19.082215,73.079944,,,,,,
+",19.082215,73.079944,9/21/2014,,H,active,891,Pothole-31,
 286,"3, Bajaj Rd, Kamala Nagar
 Mumbai, Maharashtra 400056, India
-",19.101397,72.842513,,,,,,
+",19.101397,72.842513,9/24/2014,,H,active,4918,Pothole-32,
