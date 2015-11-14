@@ -117,8 +117,9 @@ TilfordTree.prototype.init = function() {
             .attr("dy", ".31em")
             .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
             .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
-            .text(function(d) { return d.name; });
-    //});
+            .text(function(d) { if(d.depth != 2){
+                return d.name;
+            }});
 
     d3.select(self.frameElement).style("height", diameter - 150 + "px");
 

@@ -73,3 +73,12 @@
     top: 100%;
     left: 0;
 }
+
+
+.chart rect {
+    stroke: white;
+    fill: steelblue;
+}
+.chart text{
+    fill: white;
+}

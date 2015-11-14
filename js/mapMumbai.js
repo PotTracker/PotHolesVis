@@ -126,7 +126,7 @@ MapMumbai.prototype.init = function() {
                     .attr("class", "myPathClass")
                     .enter().append("svg:path")
                     .attr("d", path)
-                    .on("click", function(d,i) {self.circle(d)});
+                    .on("click", function(d,i) {console.log(d.properties["VARNAME_3"]); /*self.circle(d)*/});
 
 
             };

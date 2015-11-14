@@ -13,6 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="http://d3js.org/queue.v1.min.js"></script>
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="http://d3js.org/colorbrewer.v1.min.js"></script>
 
 
     <script src="js/mapMumbai.js"></script>
@@ -24,6 +25,7 @@
 
 </head>
 <body>
+
 <div id="tilford-tree">
 
 </div>
@@ -44,9 +46,7 @@
 <script>
     $(function () {
 
-
         $map = $("#map");
-        console.log($map);
         var mapMumbai   = new MapMumbai($map);
         var tilfordTree = new TilfordTree(d3.select("#tilford-tree"));
         var countChart  = new CountChart(d3.select("#count-chart"));
