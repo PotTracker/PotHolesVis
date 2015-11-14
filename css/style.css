@@ -22,9 +22,9 @@
 }
 
 .SvgOverlay path {
-    stroke: Orange;
+    stroke: Black;
     stroke-width: 2px;
-    fill: Orange;
+    fill: Grey;
     fill-opacity: .3;
 }
 
