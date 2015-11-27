@@ -54,12 +54,15 @@
         var tilfordTree = new TilfordTree(d3.select("#tilford-tree"), eventHandlerArea, eventHandlerPot);
         var countChart  = new CountChart(d3.select("#count-chart"), eventHandlerArea, eventHandlerPot);
         var timeChart   = new TimeChart(d3.select("#time-chart"), eventHandlerArea, eventHandlerPot);
-        eventHandler.on("OnAreaSelection", eventHandlerfnArea);
+
+        eventHandlerArea.on("OnAreaSelection", eventHandlerfnArea);
         function eventHandlerfnArea(data){
-            MapMumbai.circle(data);
-            prioVis.onSelectionChange(from, to);
+            mapMumbai.circle(data);
+            console.log(data.properties.VARNAME_3);
+            tilfordTree.callAreaFromExt(data.properties.VARNAME_3);
         }
-        eventHandler.on("OnPotSelection", eventHandlerfnPot);
+
+        eventHandlerPot.on("OnPotSelection", eventHandlerfnPot);
         function eventHandlerfnPot(data){
             MapMumbai.circle(data);
             prioVis.onSelectionChange(from, to);

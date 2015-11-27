@@ -175,7 +175,7 @@ MapMumbai.prototype.init = function() {
                 .attr("class", "myPathClass")
                 .enter().append("svg:path")
                 .attr("d", path)
-                .on("click", function(d,i) { self.eventHandlerArea(d)});
+                .on("click", function(d,i) { self.eventHandlerArea.OnAreaSelection(d)});
         };
 
     };
