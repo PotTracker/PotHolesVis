@@ -1,0 +1,10 @@
+Project Peer Review
+
+1. Feedback Received: Tree will get cluttered if potholes count increase.
+   Action Taken: Change the Top Down tree structure to Tilford Tree structure which takes less area.
+
+2. Feedback Received: Try to arrange all the given visualization in one page.
+   Action Taken: We will try to arrange all the visualization in same page.
+
+3. Feedback Received: Separate priority of potholes near school and hospital.
+	 Action Taken: If time persists we can handle this feedback
