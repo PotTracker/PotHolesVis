@@ -23,7 +23,9 @@ function MapMumbai(_parentElement){
     var self = this;
     self.parentElement = _parentElement;
     self.loc = {};
-
+    self.marker = 0;
+    self.Gmarker = 0;
+    self.isPotHole = false;
     d3.csv("data/PotHole-Data.csv", function(rows) {
 
 
@@ -50,22 +52,39 @@ function MapMumbai(_parentElement){
 
 var  map
 
-MapMumbai.prototype.circle =  function(mapData) {
+
+
+MapMumbai.prototype.circle =  function(mapData ) {
     var self = this;
-    map.setCenter(new google.maps.LatLng(19.055503, 72.829565));
-    map.setZoom(14);
-    self.layer.remove();
-    // Load the station data. When the data comes back, create an overlay.
-
-
+    console.log("mapdata:",mapData);
+    console.log("my-->",map.getZoom());
+    if(!self.isPothole) {
+        map.setCenter(new google.maps.LatLng(19.055503, 72.829565));
+        map.setZoom(14);
+        self.layer.remove();
+        // Load the station data. When the data comes back, create an overlay.
+    }
+    else
+    {
+        if(self.Gmarker != 0)
+        {
+            self.Gmarker.setMap(null);
+        }
+        self.Gmarker= new google.maps.Marker({
+            map: map,
+            draggable: false,
+            animation: google.maps.Animation.BOUNCE,
+            position: {lat: mapData[0], lng: mapData[1]}
+        });
+    }
     var overlay = new google.maps.OverlayView();
 
     // Add the container when the overlay is added to the map.
     overlay.onAdd = function () {
-        var circlelayer = d3.select(this.getPanes().overlayLayer).append("div")
+        var circlelayer = d3.select(this.getPanes().overlayMouseTarget).append("div")
             .attr("class", "SvgOverlay");
         //var data  = [[19.066435, 72.838857] , [ 19.067196, 72.83895], [19.071173, 72.837442]];
-
+        console.log("self",self.loc);
         var data = d3.values(self.loc["Bandra"])[0];
         console.log(data);
         // Draw each marker as a separate SVG element.
@@ -73,20 +92,26 @@ MapMumbai.prototype.circle =  function(mapData) {
         overlay.draw = function () {
             var projection = this.getProjection(),
                 padding = 20;
-            var marker = circlelayer.selectAll("svg").data(data);
+            if(self.marker != 0)
+                self.marker.remove();
+            self.marker = circlelayer.selectAll("svg").data(data);
 
-            marker.each(transform) // update existing markers
+            self.marker.each(transform) // update existing markers
                 .enter().append("svg:svg")
                 .each(transform)
                 .attr("class", "marker")
 
-            marker.append("svg:circle")
-                .attr("r", "2.5")
+            self.marker.append("svg:circle")
+                .attr("r", function(d,i){
+                    return "5"
+
+                })
                 .attr("cx", function (d, i) {
-                    console.log(d[0]);
                     return padding;
                 })
-                .attr("cy", padding);
+                .attr("cy", padding)
+                .on("click", function(d,i) { self.isPothole = true; self.circle( d)});
+
 
             function transform(d) {
                 d = new google.maps.LatLng(d[0], d[1]);
@@ -105,21 +130,20 @@ MapMumbai.prototype.init = function() {
     var self = this;
 
 
-
     map = new google.maps.Map(self.parentElement[0], {
         zoom: 11,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        center: new google.maps.LatLng(19.12,  72.9167)//,  Mumbai
+        center: new google.maps.LatLng(19.12, 72.9167)//,  Mumbai
         //styles:[{"stylers": [{"saturation": -75},{"lightness": 1}]}]
     });
 
-    google.maps.event.addListener(map, 'bounds_changed', function() {
+   /* google.maps.event.addListener(map, 'bounds_changed', function() {
         $map.css({ height: '600px', width: '600px' });
         google.maps.event.trigger(map, 'resize');
         map.setCenter(new google.maps.LatLng(19.12,  72.9167));
         google.maps.event.clearListeners(map, 'bounds_changed');
     });
-
+*/
     var geoJson = provinces();
     var overlay = new google.maps.OverlayView();
     overlay.onAdd = function () {
