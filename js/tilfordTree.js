@@ -1,8 +1,10 @@
 
-function TilfordTree(_parentElement){
+function TilfordTree(_parentElement, _areaEventHandler, _potEventHandler){
     var self = this;
 
     self.parentElement = _parentElement;
+    self.areaEventHandler = _areaEventHandler;
+    self.potEventHandler = _potEventHandler;
 
     self.diameter = 600
     self.svg = self.parentElement.append("svg").attr("width", self.diameter+400)
@@ -197,6 +199,9 @@ TilfordTree.prototype.init = function(parentName) {
                 //tnode.attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; });
 
                 //self.init(parentName);
+
+                //call external event
+                self.areaEventHandler.OnAreaSelection(parentName);
             }
         })
         //setting up the tips
@@ -212,7 +217,7 @@ TilfordTree.prototype.init = function(parentName) {
         }});
 }
 
-TilfordTree.prototype.callFromExt = function(parentName){
+TilfordTree.prototype.callAreaFromExt = function(parentName){
     var self = this;
     var  i = -16;
     var tnodes = self.tree.nodes(self.city);
