@@ -56,7 +56,12 @@
         var timeChart   = new TimeChart(d3.select("#time-chart"), eventHandlerArea, eventHandlerPot);
         eventHandler.on("OnAreaSelection", eventHandlerfnArea);
         function eventHandlerfnArea(data){
-            MapMumbai.circ(from, to);
+            MapMumbai.circle(data);
+            prioVis.onSelectionChange(from, to);
+        }
+        eventHandler.on("OnPotSelection", eventHandlerfnPot);
+        function eventHandlerfnPot(data){
+            MapMumbai.circle(data);
             prioVis.onSelectionChange(from, to);
         }
 
