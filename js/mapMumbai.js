@@ -19,13 +19,15 @@ d3.csv("data/PotHole-Data.csv", function(rows) {
 
 
 
-function MapMumbai(_parentElement){
+function MapMumbai(_parentElement, _eventHandlerArea, _eventHandlerPot){
     var self = this;
     self.parentElement = _parentElement;
     self.loc = {};
     self.marker = 0;
     self.Gmarker = 0;
     self.isPotHole = false;
+    self.eventHandlerArea = _eventHandlerArea;
+    self.eventHandlerPot = _eventHandlerPot;
     d3.csv("data/PotHole-Data.csv", function(rows) {
 
 
@@ -173,7 +175,7 @@ MapMumbai.prototype.init = function() {
                 .attr("class", "myPathClass")
                 .enter().append("svg:path")
                 .attr("d", path)
-                .on("click", function(d,i) { self.circle(d)});
+                .on("click", function(d,i) { self.eventHandlerArea(d)});
         };
 
     };
