@@ -48,10 +48,17 @@
     $(function () {
 
         $map = $("#map");
-        var mapMumbai   = new MapMumbai($map);
-        var tilfordTree = new TilfordTree(d3.select("#tilford-tree"));
-        var countChart  = new CountChart(d3.select("#count-chart"));
-        var timeChart   = new TimeChart(d3.select("#time-chart"));
+        var eventHandlerArea = d3.dispatch("OnAreaSelection");
+        var eventHandlerPot  =  d3.dispatch("OnPotSelection");
+        var mapMumbai   = new MapMumbai($map, eventHandlerArea, eventHandlerPot);
+        var tilfordTree = new TilfordTree(d3.select("#tilford-tree"), eventHandlerArea, eventHandlerPot);
+        var countChart  = new CountChart(d3.select("#count-chart"), eventHandlerArea, eventHandlerPot);
+        var timeChart   = new TimeChart(d3.select("#time-chart"), eventHandlerArea, eventHandlerPot);
+        eventHandler.on("OnAreaSelection", eventHandlerfnArea);
+        function eventHandlerfnArea(data){
+            MapMumbai.circ(from, to);
+            prioVis.onSelectionChange(from, to);
+        }
 
     })
 </script>
