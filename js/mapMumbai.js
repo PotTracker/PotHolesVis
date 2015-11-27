@@ -174,8 +174,6 @@ MapMumbai.prototype.init = function() {
                 .enter().append("svg:path")
                 .attr("d", path)
                 .on("click", function(d,i) { self.circle(d)});
-
-
         };
 
     };
