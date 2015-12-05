@@ -74,6 +74,9 @@
     left: 0;
 }
 
+#count-chart svg {
+    height: 400px;
+}
 
 .chart rect {
     stroke: white;
