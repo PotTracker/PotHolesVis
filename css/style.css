@@ -138,8 +138,8 @@
 #footer {
     margin-top: 20px;
     position: relative;
-    background-color:black;
-    color:white;
+    background-color:#333;
+    color:#F3F3F3;
     clear:both;
     text-align:center;
     padding:5px;
@@ -428,7 +428,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #4CAF50;
 }
 
 .active {
