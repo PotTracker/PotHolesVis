@@ -208,7 +208,7 @@ id,starttime,endtime,latitude,longitude,status,count,hospital,address,area
 207,5/30/2015,6/30/2015,19.045435,72.824542,close,7260,0," Mount Mary, Bandra West, Mumbai, Maharashtra, India",Andheri East
 208,5/30/2015,,19.069929,72.85648,active,2378,1," University of Mumbai,Vidya Nagari, Kalina, Santacruz East, Mumbai, Maharashtra, India",Andheri East
 209,5/30/2015,,19.087779,72.894514,active,9880,0," Gurunanak Nagar, Narayan Nagar, Sakinaka, Mumbai, Maharashtra, India",Vikhroli
-210,6/2/2015,12/15/2015,19.119053,72.933813,close,7852,1," Tagore Nagar, Vikhroli East, Mumbai, Maharashtra 400083, India",Vikhroli
+210,6/2/2015,12/1/2015,19.119053,72.933813,close,7852,1," Tagore Nagar, Vikhroli East, Mumbai, Maharashtra 400083, India",Vikhroli
 211,6/2/2015,,19.022802,72.902057,active,2085,0," Calico Housing Colony, Chembur, Mumbai, Maharashtra, India",Vikhroli
 212,6/4/2015,,19.019072,72.893914,active,6168,0," Bharat Petroleum Refinery, Mahul, Trombay, Mumbai, Maharashtra, India",Vikhroli
 213,6/4/2015,,19.0331,72.926941,active,6586,0," Anushakti Nagar, Mumbai, Maharashtra, India",Vikhroli
@@ -238,13 +238,13 @@ id,starttime,endtime,latitude,longitude,status,count,hospital,address,area
 237,7/20/2015,,19.071173,72.837442,active,2708,1," Khar West, Mumbai, Maharashtra, India",Andheri East
 238,7/20/2015,,19.070752,72.837335,active,8063,1," Khar Station (W), Ram Krishna Nagar, Khar West, Mumbai, Maharashtra 400052",Andheri East
 239,7/20/2015,,19.06693,72.83725,active,2284,0," Khar West, Mumbai, Maharashtra, India",Andheri East
-240,7/23/2015,1/8/2016,19.064952,72.837299,close,7793,0," Old Khar, Khar West, Mumbai, Maharashtra 400052",Andheri East
+240,7/23/2015,10/8/2015,19.064952,72.837299,close,7793,0," Old Khar, Khar West, Mumbai, Maharashtra 400052",Andheri East
 241,7/24/2015,8/13/2015,19.055684,72.837423,close,6994,1," Bandra Talao, Bandra West, Mumbai, Maharashtra 400050",Andheri East
 242,7/24/2015,,19.071366,72.834106,active,9743,1," Khar, Khar West, Mumbai, Maharashtra 400052",Andheri East
 243,7/27/2015,,19.06879,72.833559,active,1735,1," Khar Telephone Exchange, Khar West, Mumbai, Maharashtra 400052",Andheri East
 244,7/28/2015,10/5/2015,19.066736,72.833849,close,8007,1," Mumbai, Maharashtra, India",Andheri East
 245,7/29/2015,,19.064282,72.834868,active,1438,1," Khar West, Mumbai, Maharashtra, India",Andheri East
-246,7/30/2015,8/11/2016,19.061874,72.835879,close,7502,1," Bandra Talkies Bus Stop, Linking Rd, Khar West, Mumbai, Maharashtra 400050, India",Andheri East
+246,7/30/2015,8/11/2015,19.061874,72.835879,close,7502,1," Bandra Talkies Bus Stop, Linking Rd, Khar West, Mumbai, Maharashtra 400050, India",Andheri East
 247,7/30/2015,,19.082062,72.834409,active,2708,0," GOI Staff Colony, Santacruz West, Mumbai, Maharashtra 400054, India",Andheri East
 248,7/30/2015,,19.075168,72.825311,active,1212,0," Dandpada, Sai Baba Nagar, Khar West, Mumbai, Maharashtra 400052",Andheri East
 249,7/31/2015,,19.073951,72.822178,active,5811,0," Danda Village, Khar Danda, Mumbai, Maharashtra, India",Andheri East
