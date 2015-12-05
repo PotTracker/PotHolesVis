@@ -50,8 +50,9 @@
         <div style="float: left;font-family: calibri;overflow: auto; height: 70px; font-size: small;">
             &nbsp;&nbsp;&nbsp;<strong>Mumbai Potholes - </strong> <span style="font-family: calibri;overflow: auto; height: 70px; font-size: smaller;">
             Select any pothole or area to check pothole information. To change to default state click center node.
-        </span>
+            </span>
         </div>
+        <a href="#openTreeModal"><img src="https://cdn1.iconfinder.com/data/icons/mini-solid-icons-vol-2/16/82-128.png" y="2px" height="20px" width="20px" style="float: right;"></a>
     </div>
     <div id="tilford-tree" >
 
@@ -67,6 +68,7 @@
             Click on any administrative boundaries to figure out the open potholes.
             </span>
         </div>
+        <a href="#openMapModal"><img src="https://cdn1.iconfinder.com/data/icons/mini-solid-icons-vol-2/16/82-128.png" y="2px" height="20px" width="20px" style="float: right;"></a>
     </div>
     <div id="map" style=" margin: 12px; ">
     </div>
@@ -80,6 +82,7 @@
             Select any pothole for detailed information.
             </span>
         </div>
+        <a href="#openInfoModal"><img src="https://cdn1.iconfinder.com/data/icons/mini-solid-icons-vol-2/16/82-128.png" y="2px" height="20px" width="20px" style="float: right;"></a>
     </div>
     <div id="displayBox" style="position: absolute; float: left;font-family: calibri; height: 70px; font-size: small;">
 
@@ -94,6 +97,7 @@
             Hover mouse pointer on graph to view the information of selected area.
             </span>
         </div>
+        <a href="#openAreaModal"><img src="https://cdn1.iconfinder.com/data/icons/mini-solid-icons-vol-2/16/82-128.png" y="2px" height="20px" width="20px" style="float: right;"></a>
     </div>
     <div id="count-chart">
         <svg></svg>
@@ -131,9 +135,52 @@
         </div>
     </div>
 </div>
-<!--<div id="footer">
+
+<div id="openTreeModal" class="treeHelpModal">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <h2>Help</h2>
+        <div>
+            Description
+        </div>
+    </div>
+</div>
+
+<div id="openMapModal" class="mapHelpModal">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <h2>Help</h2>
+        <div>
+            Description
+        </div>
+    </div>
+</div>
+
+<div id="openInfoModal" class="infoHelpModal">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <h2>Help</h2>
+        <div>
+            Description
+        </div>
+    </div>
+</div>
+
+<div id="openAreaModal" class="areaHelpModal">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <h2>Help</h2>
+        <div>
+            Description
+        </div>
+    </div>
+</div>
+<div id="dummy">
+
+</div>
+<div id="footer">
     Copyright © Potholes Tracker
-</div>-->
+</div>
 
 <!--
 <div id="count-chart">
