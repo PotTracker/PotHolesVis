@@ -244,13 +244,13 @@ id,starttime,endtime,latitude,longitude,status,count,hospital,address,area
 243,7/27/2015,,19.06879,72.833559,active,1735,1," Khar Telephone Exchange, Khar West, Mumbai, Maharashtra 400052",Andheri East
 244,7/28/2015,10/5/2015,19.066736,72.833849,close,8007,1," Mumbai, Maharashtra, India",Andheri East
 245,7/29/2015,,19.064282,72.834868,active,1438,1," Khar West, Mumbai, Maharashtra, India",Andheri East
-246,7/30/2015,1/11/2016,19.061874,72.835879,close,7502,1," Bandra Talkies Bus Stop, Linking Rd, Khar West, Mumbai, Maharashtra 400050, India",Andheri East
+246,7/30/2015,8/11/2016,19.061874,72.835879,close,7502,1," Bandra Talkies Bus Stop, Linking Rd, Khar West, Mumbai, Maharashtra 400050, India",Andheri East
 247,7/30/2015,,19.082062,72.834409,active,2708,0," GOI Staff Colony, Santacruz West, Mumbai, Maharashtra 400054, India",Andheri East
 248,7/30/2015,,19.075168,72.825311,active,1212,0," Dandpada, Sai Baba Nagar, Khar West, Mumbai, Maharashtra 400052",Andheri East
 249,7/31/2015,,19.073951,72.822178,active,5811,0," Danda Village, Khar Danda, Mumbai, Maharashtra, India",Andheri East
 250,8/3/2015,,19.070523,72.822478,active,9092,0," Dattaram Lad Path, Union Park, Pali Hill, Mumbai, Maharashtra 400052, India",Andheri East
 251,8/4/2015,,19.066325,72.823015,active,3992,0," Sherly Gaothan Bus Stop, Carter Rd, Shirley, Pali Hill, Mumbai, Maharashtra 400050, India",Andheri East
-252,8/8/2015,12/12/2015,19.062857,72.822521,close,162,0," Addl. C.P. Office, Railway Colony, Shirley, Bandra West, Mumbai, Maharashtra 400050",Andheri East
+252,8/8/2015,8/12/2015,19.062857,72.822521,close,162,0," Addl. C.P. Office, Railway Colony, Shirley, Bandra West, Mumbai, Maharashtra 400050",Andheri East
 253,8/9/2015,,19.057909,72.823766,active,3483,0," Bandra West, Mumbai, Maharashtra, India",Andheri East
 254,8/11/2015,,19.054785,72.827435,active,8340,1," Holi Family Hospital, Bandra West, Mumbai, Maharashtra 400050",Andheri East
 255,8/13/2015,,19.052433,72.824023,active,9232,0," Mehboob Studio Bus Stop, Hill Rd, Ranwar, Bandra West, Mumbai, Maharashtra 400050, India",Andheri East
@@ -258,21 +258,21 @@ id,starttime,endtime,latitude,longitude,status,count,hospital,address,area
 257,8/17/2015,,19.055819,72.839497,active,1235,0," Patkar Blocks, Bandra West, Mumbai, Maharashtra, India",Andheri East
 258,8/17/2015,,19.045242,72.838982,active,7874,0," Mahim Koliwada, Mahim West, Mahim, Mumbai, Maharashtra, India",Andheri East
 259,8/17/2015,,19.057426,72.838607,active,9558,0," Turner Rd, Patkar Blocks, Bandra West, Mumbai, Maharashtra 400050, India",Andheri East
-260,8/19/2015,10/22/2015,19.064132,72.834962,close,3314,1," Khar West, Mumbai, Maharashtra, India",Andheri East
-261,8/27/2015,1/24/2016,19.064527,72.82308,close,9407,0," Railway Colony, Shirley, Pali Hill, Mumbai, Maharashtra 400050, India",Andheri East
-262,8/27/2015,3/12/2016,19.061465,72.822157,close,9494,0," Bandra West, Mumbai, Maharashtra, India",Andheri East
+260,8/19/2015,9/10/2015,19.064132,72.834962,close,3314,1," Khar West, Mumbai, Maharashtra, India",Andheri East
+261,8/27/2015,9/12/2015,19.064527,72.82308,close,9407,0," Railway Colony, Shirley, Pali Hill, Mumbai, Maharashtra 400050, India",Andheri East
+262,8/27/2015,10/27/2015,19.061465,72.822157,close,9494,0," Bandra West, Mumbai, Maharashtra, India",Andheri East
 263,8/31/2015,9/24/2015,19.077937,72.878551,close,9258,0," Kalpana Talkies, Kurla West, Kurla, Mumbai, Maharashtra 400070",Andheri East
 264,8/31/2015,,19.074408,72.870998,active,1518,0," MMRDA Area, Kalina, Santacruz East, Mumbai, Maharashtra, India",Andheri East
 265,9/1/2015,,19.066012,72.863273,active,6915,0," University of Mumbai,Vidya Nagari, Kalina, Santacruz East, Mumbai, Maharashtra, India",Bombay city
-266,9/5/2015,1/7/2016,19.059725,72.855076,close,8791,0," Income Tax Office, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051",Andheri East
-267,9/9/2015,12/22/2015,19.150825,72.825559,close,7851,0," Andheri West, Mumbai, Maharashtra, India",Andheri
+266,9/5/2015,9/25/2015,19.059725,72.855076,close,8791,0," Income Tax Office, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051",Andheri East
+267,9/9/2015,12/2/2015,19.150825,72.825559,close,7851,0," Andheri West, Mumbai, Maharashtra, India",Andheri
 268,9/10/2015,,19.151757,72.831739,active,6596,0," Anand Nagar, Andheri West, Mumbai, Maharashtra 400102, India",Andheri
 269,9/11/2015,,19.154108,72.835515,active,331,0," Goregaon Bus Depot, Link Road, Best Nagar, Goregaon West, Mumbai, Maharashtra 400104, India",Andheri
 270,9/11/2015,,19.163189,72.834829,active,3014,1," Motilal Nagar No.2, Bangur Nagar, Goregaon West, Mumbai, Maharashtra 400104",Andheri
 271,9/13/2015,11/26/2015,19.164912,72.834571,close,5599,0," Krishna Leela C.H.S., Bangur Nagar, Goregaon West, Mumbai, Maharashtra 400104",Andheri
 272,9/14/2015,,19.164243,72.845772,active,4965,1," Goregaon West, Mumbai, Maharashtra, India",Andheri
 273,9/17/2015,,19.17081,72.845236,active,3423,0," Mahesh Nagar, Goregaon West, Mumbai, Maharashtra, India",Andheri
-274,9/18/2015,3/21/2016,19.173566,72.836545,close,4715,0," Inorbit Mall Bus Stop, Link Road, Prem Nagar, Goregaon West, Mumbai, Maharashtra 400104, India",Andheri
+274,9/18/2015,11/2/2015,19.173566,72.836545,close,4715,0," Inorbit Mall Bus Stop, Link Road, Prem Nagar, Goregaon West, Mumbai, Maharashtra 400104, India",Andheri
 275,9/18/2015,,19.17387,72.839099,active,9980,0," Sunder Nagar, Malad West, Mumbai, Maharashtra, India",Andheri
 276,9/20/2015,,19.170648,72.834249,active,9400,0," Malad West, Mumbai, Maharashtra, India",Andheri
 277,9/21/2015,,19.172553,72.830709,active,1313,0," Malad West, Mumbai, Maharashtra, India",Andheri
@@ -280,14 +280,14 @@ id,starttime,endtime,latitude,longitude,status,count,hospital,address,area
 279,9/25/2015,,19.149015,72.824039,active,2229,0," Andheri West, Mumbai, Maharashtra, India",Andheri
 280,9/26/2015,,19.14115,72.821808,active,7032,0," Alfa Kids Centre, SV Patel Nagar, Andheri West, Mumbai, Maharashtra 400061",Andheri
 281,9/27/2015,,19.148894,72.843137,active,788,0," Oshiwara, Jogeshwari West, Mumbai, Maharashtra 400102, India",Andheri
-282,9/28/2015,2/5/2016,19.141911,72.854938,close,2415,1," S.R.P. Camp, Goregaon, Mumbai, Maharashtra 400065",Andheri East
-283,9/29/2015,4/6/2016,19.162262,72.858028,close,4837,0," Aarey Colony, Goregaon, Mumbai, Maharashtra, India",Borivali
+282,9/28/2015,11/26/2015,19.141911,72.854938,close,2415,1," S.R.P. Camp, Goregaon, Mumbai, Maharashtra 400065",Andheri East
+283,9/29/2015,11/12/2015,19.162262,72.858028,close,4837,0," Aarey Colony, Goregaon, Mumbai, Maharashtra, India",Borivali
 284,9/29/2015,,19.221355,72.858629,active,3247,0," Rajendra Nagar, Borivali, Mumbai, Maharashtra 400066, India",Borivali
-285,10/1/2015,1/4/2016,19.224719,72.840819,close,60,0," Shimpoli Telephone Exchange, Vazira, Borivali West, Mumbai, Maharashtra 400092",Andheri
-286,10/1/2015,2/3/2016,19.239022,72.860475,close,3410,0," Ambawadi, Borivali, Mumbai, Maharashtra, India",Borivali
+285,10/1/2015,11/26/2015,19.224719,72.840819,close,60,0," Shimpoli Telephone Exchange, Vazira, Borivali West, Mumbai, Maharashtra 400092",Andheri
+286,10/1/2015,11/1/2015,19.239022,72.860475,close,3410,0," Ambawadi, Borivali, Mumbai, Maharashtra, India",Borivali
 287,10/1/2015,,19.24356,72.84524,active,1063,0," Eksar, Borivali West, Mumbai, Maharashtra, India",Andheri
 288,10/4/2015,,19.258025,72.86232,active,3106,0," Avdhut Nagar, Dahisar East, Mumbai, Maharashtra 400068, India",Borivali
-289,10/5/2015,1/14/2016,19.210333,72.872926,close,3302,1," Thakur Cinema, Kanakiya, Thakur Village, Kandivali East, Mumbai, Maharashtra 400101",Borivali
+289,10/5/2015,11/11/2015,19.210333,72.872926,close,3302,1," Thakur Cinema, Kanakiya, Thakur Village, Kandivali East, Mumbai, Maharashtra 400101",Borivali
 290,10/5/2015,,19.207537,72.872755,active,5111,1," Aangan, Kanakiya, Thakur Village, Kandivali East, Mumbai, Maharashtra 400101",Borivali
 291,10/7/2015,,19.205916,72.850095,active,2439,1," Kandivali Station (W), Jethava Nagar, Kandivali West, Mumbai, Maharashtra 400067",Borivali
 292,10/7/2015,,19.183754,72.835803,active,5656,0," Malad Bus Depot, Ekta Nagar, Malad West, Mumbai, Maharashtra 400064",Andheri
@@ -297,26 +297,26 @@ id,starttime,endtime,latitude,longitude,status,count,hospital,address,area
 296,10/12/2015,,19.1593,72.874085,active,6240,0," Aarey Colony, Goregaon, Mumbai, Maharashtra, India",Borivali
 297,10/15/2015,,19.10872,72.875872,active,1133,1," Navpada, Marol, Andheri East, Mumbai, Maharashtra 400059, India",Andheri East
 298,10/16/2015,,19.103124,72.888425,active,638,1," Sathi D Souza Nagar, Sakinaka, Mumbai, Maharashtra 400072, India",Andheri East
-299,10/17/2015,1/12/2016,19.107037,72.887952,close,272,1," State Bank, Sag Baug, Marol, Andheri East, Mumbai, Maharashtra 400072",Andheri East
-300,10/24/2015,3/20/2016,19.113059,72.882116,close,8465,0," Gamdevi, Marol, Andheri East, Mumbai, Maharashtra 400059, India",Andheri East
+299,10/17/2015,11/9/2015,19.107037,72.887952,close,272,1," State Bank, Sag Baug, Marol, Andheri East, Mumbai, Maharashtra 400072",Andheri East
+300,10/24/2015,11/30/2015,19.113059,72.882116,close,8465,0," Gamdevi, Marol, Andheri East, Mumbai, Maharashtra 400059, India",Andheri East
 301,10/25/2015,,19.11531,72.883489,active,876,1," Marol, Andheri East, Mumbai, Maharashtra, India",Andheri East
-302,10/26/2015,2/2/2016,19.117175,72.889347,close,4938,0," E.S.I.S. Local Office, Muranjan Wadi, Marol, Andheri East, Mumbai, Maharashtra 400072",Andheri East
+302,10/26/2015,11/1/2015,19.117175,72.889347,close,4938,0," E.S.I.S. Local Office, Muranjan Wadi, Marol, Andheri East, Mumbai, Maharashtra 400072",Andheri East
 303,10/26/2015,,19.114722,72.894755,active,9932,0," Chandivali, Powai, Mumbai, Maharashtra, India",Andheri East
-304,10/27/2015,4/9/2016,19.114478,72.898188,close,997,0," MHADA, Chandivali Farm Rd, Rambaug, Chandivali, Powai, Mumbai, Maharashtra 400072, India",Vikhroli
+304,10/27/2015,11/14/2015,19.114478,72.898188,close,997,0," MHADA, Chandivali Farm Rd, Rambaug, Chandivali, Powai, Mumbai, Maharashtra 400072, India",Vikhroli
 305,10/27/2015,,19.111985,72.900977,active,7931,0," Best Quarters, Chandivali, Powai, Mumbai, Maharashtra 400072",Vikhroli
 306,10/31/2015,,19.108173,72.889798,active,9145,0," Ansa Industrial Estate, Chandivali, Andheri East, Mumbai, Maharashtra 400072, India",Andheri East
 307,11/2/2015,,19.109612,72.901449,active,1681,0," Nahar Amrit Shakti, Chandivali, Powai, Mumbai, Maharashtra 400072, India",Vikhroli
-308,11/3/2015,4/28/2016,19.10008,72.918058,close,7707,1," Amrut Nagar, Ghatkopar West, Mumbai, Maharashtra, India",Vikhroli
+308,11/3/2015,11/13/2015,19.10008,72.918058,close,7707,1," Amrut Nagar, Ghatkopar West, Mumbai, Maharashtra, India",Vikhroli
 309,11/5/2015,,19.105818,72.916986,active,8903,0," Varsha Nagar, Vikhroli West, Mumbai, Maharashtra, India",Vikhroli
 310,11/5/2015,,19.111061,72.917826,active,4281,0," HMPL Surya Nagar, Vikhroli West, Mumbai, Maharashtra, India",Vikhroli
-311,11/8/2015,4/20/2016,19.125674,72.922357,close,3059,1," New Colony, Kanjurmarg West, Bhandup West, Mumbai, Maharashtra, India",Vikhroli
-312,11/8/2015,12/4/2015,19.126505,72.917958,close,9170,0," Tirandaz, Vikhroli West, Mumbai, Maharashtra 400076, India",Vikhroli
+311,11/8/2015,11/22/2015,19.125674,72.922357,close,3059,1," New Colony, Kanjurmarg West, Bhandup West, Mumbai, Maharashtra, India",Vikhroli
+312,11/8/2015,12/1/2015,19.126505,72.917958,close,9170,0," Tirandaz, Vikhroli West, Mumbai, Maharashtra 400076, India",Vikhroli
 313,11/15/2015,,19.124356,72.914203,active,325,1," IIT Main Gate Bus Stop, BSNL Colony, Powai, Mumbai, Maharashtra 400076, India",Vikhroli
-314,11/16/2015,3/30/2016,19.124356,72.914203,close,1168,1," IIT Main Gate Bus Stop, BSNL Colony, Powai, Mumbai, Maharashtra 400076, India",Vikhroli
-315,11/19/2015,5/14/2016,19.118706,72.905122,close,2146,0," MHADA Colony 19, Powai, Mumbai, Maharashtra 400076, India",Vikhroli
+314,11/16/2015,11/17/2015,19.124356,72.914203,close,1168,1," IIT Main Gate Bus Stop, BSNL Colony, Powai, Mumbai, Maharashtra 400076, India",Vikhroli
+315,11/19/2015,11/20/2015,19.118706,72.905122,close,2146,0," MHADA Colony 19, Powai, Mumbai, Maharashtra 400076, India",Vikhroli
 316,11/19/2015,,19.138055,72.930412,active,3674,0," Mangatram Petrol Pump, Ambedkar Nagar, Kanjurmarg West, Bhandup West, Mumbai, Maharashtra 400078",Vikhroli
 317,11/23/2015,,19.15446,72.960076,active,6215,0," Mulund East, Mumbai, Maharashtra, India",Vikhroli
-318,11/24/2015,3/15/2016,19.103081,72.920265,close,673,0," Vikhroli Depot, Godrej Hillside Colony, Vikhroli West, Mumbai, Maharashtra 400079",Vikhroli
+318,11/24/2015,11/30/2015,19.103081,72.920265,close,673,0," Vikhroli Depot, Godrej Hillside Colony, Vikhroli West, Mumbai, Maharashtra 400079",Vikhroli
 319,11/27/2015,,19.087508,72.902755,active,8196,1," Ghatkopar Pipe Line, Ghatkopar West, Mumbai, Maharashtra 400086",Vikhroli
 320,11/29/2015,,19.082804,72.882199,active,2863,1," Bail Bajar, Sakinaka, Mumbai, Maharashtra, India",Andheri East
 321,12/1/2015,,19.074489,72.860269,active,1978,0," Yashwant Nagar, Vakola, Santacruz East, Mumbai, Maharashtra, India",Andheri East
