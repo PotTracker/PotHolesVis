@@ -3,40 +3,88 @@ function CountChart(_parentElement){
     var self = this;
 
     self.parentElement = _parentElement;
-
-    //load file data and call initialize
-    self.init();
+    var parseDate = d3.time.format("%m/%d/%Y").parse;
+    self.activePotholes = [];
+    var start = new Date("Sep 8, 2013 00:00:00");
+    var end = new Date("Dec 13, 2015 00:00:00");
+    var area = ["Andheri East", "Andheri", "Bombay city", "Borivali",  "Gorai", "Mira Bhayandar", "Thane", "Uttan", "Vikhroli"];
+    for(var i = 0; i < 9; i++)
+    {
+        self.activePotholes[area[i]] = [];
+    }
+    var noofdates = 0;
+    var noofrows = 0;
+    d3.csv("data/PotHole-Data.csv", function(rows) {
+        while (start <= end) {
+            noofdates++;
+            for(var i = 0; i < 9; i++)
+            {
+                self.activePotholes[area[i]].push([Date.parse(start), 0]);
+            }
+            rows.forEach(function (row) {
+                if( start >=parseDate(row.starttime) ){
+                    noofrows++;
+                    if(row.endtime.length){
+                        if( start < parseDate(row.endtime)) {
+                            (self.activePotholes[row.area][self.activePotholes[row.area].length - 1][1])++;
+                        }
+                    }
+                    else {
+                        (self.activePotholes[row.area][self.activePotholes[row.area].length - 1][1])++;
+                    }
+                }
+            })
+            start.setDate(start.getDate() + 1);
+        }
+        console.log("came out:",noofdates, ",", noofrows);
+        // var n = Date.parse(parseDate(end));
+        // console.log(n)
+        console.log("yogesh",self.activePotholes);
+        console.log(d3.entries(self.activePotholes));
+        var modifiedactivePotholes = [];
+        var count =0;
+        for (var k in self.activePotholes) {
+            console.log(k);
+            var newFeature = {
+                "key": k,
+                "values": self.activePotholes[k],
+                "seriesIndex": count++
+            };
+            modifiedactivePotholes.push(newFeature);
+        }
+        self.activePotholes = modifiedactivePotholes;
+        console.log(self.activePotholes);
+        //load file data and call initialize
+        self.initnvD3stackAreaChart();
+    });
 }
 
 
-CountChart.prototype.init = function() {
+CountChart.prototype.initnvD3stackAreaChart = function() {
     var self = this;
-    var barData = {};
+    nv.addGraph(function() {
+        var chart = nv.models.stackedAreaChart()
+                .x(function(d) { return d[0] })
+                .y(function(d) { return d[1] })
+                .clipEdge(true)
+                .showControls(false)
+                .useInteractiveGuideline(true)
+            ;
 
-    d3.csv("data/PotHole-Data.csv", function(rows) {
+        chart.xAxis
+            .showMaxMin(false)
+            .tickFormat(function(d) { return d3.time.format('%x')(new Date(d)) });
 
-        console.log(rows);
-        // Create nodes for each unique source and target.
-        rows.forEach(function(row) {
+        chart.yAxis
+            .tickFormat(d3.format(',.2f'));
+        // chart.xDomain([1043989200000, 1217476800000]);
+        d3.select('#count-chart svg')
+            .datum(self.activePotholes)
+            .transition().duration(500).call(chart);
 
-            if(row.status == "active") {
-                if (!barData.hasOwnProperty(row.area)) {
-                    barData[row.area] = {
-                        potholeHitCount:[]
-                    }
-                }
-                barData[row.area].potholeHitCount.push(row.count);
-            }
-        });
+        nv.utils.windowResize(chart.update);
 
-        for(key in barData){
-            barData[key].potholeHitCount.sort(function(a, b){return b-a});
-        }
-        console.log(barData);
-
-        self.printElementsBar(barData["Bandra"].potholeHitCount.slice(0,10));
-        // Sort the bar data
-        //
+        return chart;
     });
 }
 
@@ -46,38 +94,3 @@ CountChart.prototype.init = function() {
  * Reference: http://dataviscourse.net/2015/lectures/lecture-advanced-d3/
  * @param data
  */
-CountChart.prototype.printElementsBar = function(data){
-    var self = this;
-
-    var x = d3.scale.linear()
-        .domain([0, d3.max(data)])
-        .range([0, 420]);
-
-    var y = d3.scale.ordinal()
-        .domain(data)
-        .rangeBands([0, 200]);
-
-    var chart = self.parentElement.append("svg")
-        .attr("class", "chart")
-        .attr("width", 420)
-        .attr("height", 20 * data.length);
-
-    chart.selectAll("rect")
-        .data(data)
-        .enter().append("rect")
-        .attr("y", y)
-        .attr("width", x)
-        .attr("height", y.rangeBand());
-
-    chart.selectAll("text")
-        .data(data)
-        .enter().append("text")
-        .attr("x", x)
-        .attr("y", function(d) { return y(d) + y.rangeBand() / 2; })
-        .attr("dx", -3) // padding-right
-        .attr("dy", ".35em") // vertical-align: middle
-        .attr("text-anchor", "end") // text-align: right
-        .text(String);
-
-}
-
