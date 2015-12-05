@@ -5,10 +5,10 @@
     <title>PotTracker</title>
 
     <!-- ADD Libraries-->
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBA2JistFrdAfsjohvUqo0MZfJ9M9PVQjk&signed_in=true&libraries=geometry,places,visualization&callback=initMap"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/d3/2.10.0/d3.v2.min.js"></script>
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBA2JistFrdAfsjohvUqo0MZfJ9M9PVQjk&signed_in=true&callback=initMap"></script>
     <script src="http://d3js.org/d3.v3.js" charset="utf-8"></script>
     <script src="http://code.jquery.com/jquery-2.1.4.js" charset="utf-8"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -16,33 +16,133 @@
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
     <script src="http://d3js.org/colorbrewer.v1.min.js"></script>
 
-
     <script src="js/mapMumbai.js"></script>
     <script src="js/countChart.js"></script>
     <script src="js/tilfordTree.js"></script>
     <script src="js/timeChart.js"></script>
+    <script src="js/mobileDataConverter.js"></script>
+    <script src="js/infromationBox.js"></script>
+    <script src="js/nv.d3.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/nv.d3.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
 
-<div id="tilford-tree">
 
+<div id="header" style="border-style: solid; border-width:  thin;">
+    <img src="http://plainicon.com/dboard/userprod/2805_fce53/prod_thumb/plainicon.com-47392-256px-402.png" height = "40px" width = "40px" style="float: left">
+    <div>
+        <ul>
+            <span style="font-size: xx-large;font-family: calibri;font-weight: bold;color: #F3F3F3;">&nbsp;&nbsp;&nbsp;&nbsp;Mumbai Pot Tracker</span>
+            <li style="float: right"><a href="#openAboutModal">About</a></li>
+            <li style="float: right"><a href="#openModal">Screencast</a></li>
+            <li style="float: right"><a href="#openPDFModal">Process Book</a></li>
+        </ul>
+    </div>
 </div>
+<br>
+<div id="nav" style="border-style: solid; border-width: thin; padding: 5px; background-color: #ffffff;">
+    <div id="tree-header" style="border-style: solid; border-width:  thin; background-color: #f5f5f5;height: 30px; color:#333; vertical-align: middle; align: center; padding: 2px">
+        <img src="http://www.pineapplesparkle.com/assets/glyphicon-share.png" y="2px" height="20px" width="20px" style="float: left;">
+        <div style="float: left;font-family: calibri;overflow: auto; height: 70px; font-size: small;">
+            &nbsp;&nbsp;&nbsp;<strong>Mumbai Potholes - </strong> <span style="font-family: calibri;overflow: auto; height: 70px; font-size: smaller;">
+            Select any pothole or area to check pothole information. To change to default state click center node.
+        </span>
+        </div>
+    </div>
+    <div id="tilford-tree" >
 
-<div id="map-wrap">
-    <div id="map">
     </div>
 </div>
 
+
+<div id="map-wrap" style="border-style: solid; border-width:  thin; padding: 5px; margin-left: 5px; background-color: #ffffff">
+    <div id="map-header" style="border-style: solid; border-width:  thin; background-color: #f5f5f5;height: 30px; color:#333; vertical-align: middle; align: center; padding: 2px; ">
+        <img src="https://cdn0.iconfinder.com/data/icons/iconsweets2/40/location_pin.png" height="27px" style="float: left;">
+        <div style="float: left;font-family: calibri;overflow: auto; height: 70px; font-size: small;">
+            &nbsp;&nbsp;&nbsp;<strong>Mumbai Map - </strong> <span style="font-family: calibri;overflow: auto; height: 70px; font-size: smaller;">
+            Click on any administrative boundaries to figure out the open potholes.
+            </span>
+        </div>
+    </div>
+    <div id="map" style=" margin: 12px; ">
+    </div>
+</div>
+
+<div id="information" style="border-style: solid; border-width: thin; padding: 5px; margin-left: 5px;margin-top: 5px; ; background-color: #ffffff;">
+    <div id="information-header" style="border-style: solid; border-width:  thin; background-color: #f5f5f5;height: 30px; color:#333; vertical-align: middle; align: center; padding: 2px">
+        <img src="http://icons.iconarchive.com/icons/custom-icon-design/mono-general-1/512/information-icon.png" y="2px" height="20px" width="20px" style="float: left;">
+        <div style="float: left;font-family: calibri;overflow: auto; height: 70px; font-size: small;">
+            &nbsp;&nbsp;&nbsp;<strong>Information Box - </strong> <span style="font-family: calibri;overflow: auto; height: 70px; font-size: smaller;">
+            Select any pothole for detailed information.
+            </span>
+        </div>
+    </div>
+    <div id="displayBox" style="position: absolute; float: left;font-family: calibri; height: 70px; font-size: small;">
+
+    </div>
+</div>
+
+<div id="areachart" style="border-style: solid; border-width: thin; padding: 5px; margin-top: 5px; background-color: #ffffff;">
+    <div id="areachart-header" style="border-style: solid; border-width:  thin; background-color: #f5f5f5;height: 30px; color:#333; vertical-align: middle; align: center; padding: 2px">
+        <img src="http://icons.iconarchive.com/icons/custom-icon-design/mono-general-1/512/information-icon.png" y="2px" height="20px" width="20px" style="float: left;">
+        <div style="float: left;font-family: calibri;overflow: auto; height: 70px; font-size: small;">
+            &nbsp;&nbsp;&nbsp;<strong>Mumbai Potholes Analysis - </strong> <span style="font-family: calibri;overflow: auto; height: 70px; font-size: smaller;">
+            Hover mouse pointer on graph to view the information of selected area.
+            </span>
+        </div>
+    </div>
+    <div id="count-chart">
+        <svg></svg>
+    </div>
+    <div id="time-chart">
+    </div>
+</div>
+
+<div id="openModal" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <h2>Pothole Tracker</h2>
+       <embed width="690" height="315"
+               src="http://www.youtube.com/embed/XGSy3_Czz8k">
+    </div>
+</div>
+
+
+<div id="openPDFModal" class="modalPDFDialog">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <h2>Process Book</h2>
+        <object data="http://eloquentjavascript.net/Eloquent_JavaScript.pdf" type="application/pdf" width="100%" height="400px">
+        </object>
+    </div>
+</div>
+
+
+<div id="openAboutModal" class="modalAboutDialog">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <h2>About</h2>
+        <div>
+            Description
+        </div>
+    </div>
+</div>
+<!--<div id="footer">
+    Copyright © Potholes Tracker
+</div>-->
+
+<!--
 <div id="count-chart">
 
 </div>
 
 <div id="time-chart">
 
-</div>
+</div>-->
 
 <script>
     $(function () {
@@ -50,22 +150,50 @@
         $map = $("#map");
         var eventHandlerArea = d3.dispatch("OnAreaSelection");
         var eventHandlerPot  =  d3.dispatch("OnPotSelection");
+        var eventHandlerCity  =  d3.dispatch("OnCitySelection");
+
+       /*var counter = 355;
+        var rows;
+        d3.csv("data/PotHole-Data.csv", function(links) {
+            rows = links;
+        });
+        setInterval(function(){
+
+            new MobileDataConverter(parseFloat(rows[counter].latitude), parseFloat( rows[counter].longitude), counter);
+
+            counter++;
+            }, 3000);*/
+
         var mapMumbai   = new MapMumbai($map, eventHandlerArea, eventHandlerPot);
-        var tilfordTree = new TilfordTree(d3.select("#tilford-tree"), eventHandlerArea, eventHandlerPot);
-        var countChart  = new CountChart(d3.select("#count-chart"), eventHandlerArea, eventHandlerPot);
-        var timeChart   = new TimeChart(d3.select("#time-chart"), eventHandlerArea, eventHandlerPot);
+        var tilfordTree = new TilfordTree(d3.select("#tilford-tree"), eventHandlerArea, eventHandlerPot,eventHandlerCity);
+        var countChart  = new CountChart(d3.select("#count-chart"));
+        var timeChart   = new TimeChart(d3.select("#time-chart"));
+        var informationBox = new InformationBox();
 
         eventHandlerArea.on("OnAreaSelection", eventHandlerfnArea);
         function eventHandlerfnArea(data){
+            console.log(data);
             mapMumbai.circle(data);
-            console.log(data.properties.VARNAME_3);
-            tilfordTree.callAreaFromExt(data.properties.VARNAME_3);
+            tilfordTree.callAreaFromExt(data);
         }
 
         eventHandlerPot.on("OnPotSelection", eventHandlerfnPot);
-        function eventHandlerfnPot(data){
-            MapMumbai.circle(data);
-            prioVis.onSelectionChange(from, to);
+        function eventHandlerfnPot(data,d){
+
+            mapMumbai.MapMarker(data);
+
+            //information box
+            var address = d.data.address;
+            var areaName = d.data.area.name;
+            var hits = d.count;
+            var loc = "Area Name:" + areaName + "<br>" + "Address:" + address + "<br>" + "Vehicle hits:" + hits;
+            informationBox.display(loc);
+        }
+
+        eventHandlerCity.on("OnCitySelection", eventHandlerfnCity);
+        function eventHandlerfnCity(data){
+            console.log("city clicked");
+            mapMumbai.init();
         }
 
     })

@@ -1,9 +1,9 @@
-
+/*
 #map-wrap {
     width: 600px;
     height: 600px;
     overflow: hidden;
-}
+}*/
 
 #map {
     width: 1000px; /* just big enough to show the whole thing at zoom #6 */
@@ -24,7 +24,7 @@
 .SvgOverlay path {
     stroke: Black;
     stroke-width: 2px;
-    fill: Grey;
+    fill: grey;
     fill-opacity: .3;
 }
 
@@ -74,9 +74,6 @@
     left: 0;
 }
 
-#count-chart svg {
-    height: 400px;
-}
 
 .chart rect {
     stroke: white;
@@ -95,4 +92,226 @@
 
 .area {
     fill: steelblue;
+}
+
+
+#header {
+     background-color: whitesmoke;
+     color:black;
+     /*padding:1px;*/
+}
+#nav {
+    line-height:30px;
+    background-color: white;
+    height:557px;
+    width:650px;
+    float:left;
+   /* padding:5px;*/
+}
+#map-wrap {
+    width: 640px;
+    height: 420px;
+    float:left;
+    overflow: hidden;
+}
+#information {
+    width:640px;
+    height:120px;
+    float:left;
+    overflow: hidden;
+    background-color:grey;
+}
+#areachart {
+    width:1307px;
+    height:400px;
+    float:left;
+    overflow: hidden;
+    background-color:grey;
+}
+#footer {
+    margin-top: 15px;
+    position: relative;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 700px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+
+.modalPDFDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalPDFDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalPDFDialog > div {
+    width: 700px;
+    height: 480px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+
+.modalAboutDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalAboutDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalAboutDialog > div {
+    width: 700px;
+    height: 480px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+
+
+#count-chart svg {
+    height: 400px;
+}
+
+#stacked-chart svg{
+    height: 100px;
+
+}
+
+.chart rect {
+    stroke: white;
+    fill: steelblue;
+}
+.chart text{
+    fill: white;
+}
+
+
+svg {
+    font: 10px sans-serif;
 }
